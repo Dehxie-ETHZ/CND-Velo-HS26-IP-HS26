@@ -146,163 +146,171 @@ from math import isfinite
 # =============================================================================
 # 1. PACKAGES: RAILWAY IMPROVEMENTS, MOBILITY HUBS AND APPRAISAL
 # =============================================================================
+# =============================================================================
+# Feingliedrige FSM-Zonen-IDs des Limmattal-Korridors
+# =============================================================================
+CORRIDOR_ZONES = [
+    13101001, 13101005, 13101010, 13501002, 16101002, 16101004, 16101006, 16101007,
+    19101001, 19101002, 19101003, 19101004, 19101005, 19301001, 19501001, 24301001,
+    24301002, 24301003, 24301004, 24301005, 24301006, 24301007, 24301008, 24301009,
+    24301010, 24301011, 24301012, 24301013, 24301014, 24301015, 24301016, 24301017,
+    24301018, 24301019, 24301020, 24301021, 24301022, 24301023, 24301024, 24301025,
+    24301026, 24301027, 24401005, 24501001, 24501002, 24501003, 24501004, 24601001,
+    24701001, 24701002, 24701003, 24701004, 24701005, 24701006, 24701007, 24701008,
+    24701009, 24701010, 24701011, 24701012, 24701013, 24701014, 24701015, 24701016,
+    24701017, 24701018, 24701019, 24701020, 24801002, 24801003, 24901001, 24901002,
+    24901003, 25001001, 25001002, 25001003, 25001004, 25001005, 25001006, 25001007,
+    25001008, 25001009, 25101001, 25101003, 26101001, 26101002, 26101003, 26101004,
+    26101005, 26101006, 26101007, 26101008, 26101009, 26101010, 26101011, 26101012,
+    26101013, 26101014, 26101015, 26101016, 26101017, 26101018, 26101019, 26101020,
+    26101021, 26101022, 26101023, 26101024, 26101025, 26101026, 26101027, 26101028,
+    26101029, 26101030, 26101031, 26101032, 26101033, 26101034, 26101035, 26101036,
+    26101037, 26101038, 26101039, 26101040, 26101041, 26101042, 26101043, 26101044,
+    26101045, 26101046, 26101047, 26101048, 26101049, 26101050, 26101051, 26101052,
+    26101053, 26101054, 26101055, 26101056, 26101057, 26101058, 26101059, 26101060,
+    26101061, 26101062, 26101063, 26101064, 26101065, 26101066, 26101067, 26101068,
+    26101069, 26101070, 26101071, 26101072, 26101073, 26101074, 26101075, 26101076,
+    26101077, 26101078, 26101079, 26101080, 26101081, 26101082, 26101083, 26101084,
+    26101085, 26101086, 26101087, 26101088, 26101089, 26101090, 26101091, 26101092,
+    26101093, 26101094, 26101095, 26101096, 26101097, 26101098, 26101099, 26101200,
+    26101201, 26101202, 26101203, 26101204, 26101205, 26103306, 26103307, 26103308,
+    6601001, 6601002, 6601003, 6601006, 6601008, 6601009, 6901001, 6901002,
+    6901004, 6901007, 6901008, 6901011, 6901015, 6902019, 9601012, 9601014, 9701004,
+]
+
+CORRIDOR_AREA_PAIRS = [
+    {"origin": {"zone_id": str(z1)}, "destination": {"zone_id": str(z2)}}
+    for z1 in CORRIDOR_ZONES for z2 in CORRIDOR_ZONES if z1 != z2
+]
+
+# -----------------------------------------------------------------------------
+# Specific Underpass Area Pairs (einzeln editierbar im UI)
+# -----------------------------------------------------------------------------
+
+# 3 grosse Unterführungen (Stage 1)
+MAJOR_UNDERPASS_1 = [{"origin": {"zone_id": "24301018"}, "destination": {"zone_id": "24301022"}}]
+MAJOR_UNDERPASS_2 = [{"origin": {"zone_id": "24301022"}, "destination": {"zone_id": "25101001"}}]
+MAJOR_UNDERPASS_3 = [{"origin": {"zone_id": "24701009"}, "destination": {"zone_id": "24701013"}}]
+
+# 5 kleine Unterführungen (Stage 2)
+MINOR_UNDERPASS_1 = [{"origin": {"zone_id": "24301014"}, "destination": {"zone_id": "24301005"}}]
+MINOR_UNDERPASS_2 = [{"origin": {"zone_id": "24301005"}, "destination": {"zone_id": "24301018"}}]
+MINOR_UNDERPASS_3 = [{"origin": {"zone_id": "24301018"}, "destination": {"zone_id": "24301016"}}]
+MINOR_UNDERPASS_4 = [{"origin": {"zone_id": "24701010"}, "destination": {"zone_id": "24701016"}}]
+MINOR_UNDERPASS_5 = [{"origin": {"zone_id": "24701017"}, "destination": {"zone_id": "24701020"}}]
+
+# =============================================================================
+# PACKAGES DEFINITION
+# =============================================================================
 PACKAGES = {
-    # --- Station package ---
-    # ⚠️ STUDENT INSTRUCTION:
-    # The station and tunnel packages are SBB MehrSpur-specific examples.
-    # For your own project, replace these blocks completely with your own interventions.
-    # For example, use the "bike_highways" key (see Cheat Sheet above) to model a new cycle path.
-
-    # SBB MehrSpur station scope:
-
-    #       A3 Dietlikon: 4-track expansion & grade-separated flyover (Entflechtung),
-    #       eliminating cross-track bottlenecks towards the airport and Winterthur.
-
-    #       A4 Bassersdorf: Station modernization, portal approach tracks, and multimodal
-    #       hub integration (Velostation & P+R).
-
-    #       A5 Wallisellen: Grade-separated junction towards Zurich HB/Airport,
-    #       barrier-free platform access, and improved bus feeder connectivity.
-
-    # Transport & Economic Impact:
-    #       Relieves surface bottlenecks before tunnel completion, stabilizing network timetables.
-    #       Reduces station access/egress and physical transfer walking.
-    #       Shortens service headway and raises the section comfort threshold.
-
-
     "stations": {
-        "name": "Stage 1 – Local Stations & Access Package",
-
-        # Railway improvements
-        # Section minutes follow parameters.SECTION route coverage, including
-        # through travelers. Shorter headways reduce initial and transfer waiting
-        # between different CORRIDOR_MUNICIPALITIES, in both directions.
-        "railway_expansions": [
+        "name": "Stage 1 – Bike Highway Roll-out + 3 Major Underpasses",
+        "bike_highways": [
             {
-                "section_time_saving_min": 1.0,  # In-vehicle minutes saved relative to baseline.
-                "headway_reduction_min": 1.0,  # Minutes removed from the baseline service interval.
-                "capacity_increase": 0.10,  # Fraction of baseline peak-hour comfort capacity (+10%).
+                "name": "Bike Highway Limmattal Corridor (Main Axis)",
+                "area_pairs": CORRIDOR_AREA_PAIRS,
+                "both_directions": True,
+                "effects": {
+                    "travel_time_reduction_pct": 12.0,
+                    "speed_increase_pct": 10.0,
+                    "distance_reduction_pct": 5.0,
+                },
+            },
+            {
+                "name": "Major Underpass 1 (24301018 ↔ 24301022)",
+                "area_pairs": MAJOR_UNDERPASS_1,
+                "both_directions": True,
+                "effects": {
+                    "travel_time_reduction_pct": 20.0,
+                    "speed_increase_pct": 15.0,
+                    "distance_reduction_pct": 10.0,
+                },
+            },
+            {
+                "name": "Major Underpass 2 (24301022 ↔ 25101001)",
+                "area_pairs": MAJOR_UNDERPASS_2,
+                "both_directions": True,
+                "effects": {
+                    "travel_time_reduction_pct": 20.0,
+                    "speed_increase_pct": 15.0,
+                    "distance_reduction_pct": 10.0,
+                },
+            },
+            {
+                "name": "Major Underpass 3 (24701009 ↔ 24701013)",
+                "area_pairs": MAJOR_UNDERPASS_3,
+                "both_directions": True,
+                "effects": {
+                    "travel_time_reduction_pct": 20.0,
+                    "speed_increase_pct": 15.0,
+                    "distance_reduction_pct": 10.0,
+                },
             },
         ],
-
-        # Hub & Node Interventions
-        "mobility_hubs": [
-            {
-                "name": "Station Upgrades (Dietlikon, Bassersdorf, Wallisellen)",
-                "zones": [
-                    {"municipality_name": "Dietlikon"},
-                    {"municipality_name": "Bassersdorf"},
-                    {"municipality_name": "Wallisellen"}
-                ],
-                "effects": {
-                    "access_time_reduction_pct": 25.0,  # Improved pedestrian ramps & bus loop access
-                    "transfer_time_reduction_pct": 15.0, # Shorter platform transfer paths
-                    # Frequency savings belong to the railway package only.
-                    "egress_time_reduction_pct": 20.0,
-                }
-            }
-        ],
-
-        # Appraisal considerations
-        # CAPEX is the base construction cost, before CAPEX_MULTIPLIER.
-        # Only capital_share retains residual value; the rest has none.
-        # At horizon H, opening in year y means H - y + 1 operated years.
-        # The remaining eligible value decreases linearly to zero over lifetime_years.
-        # Set capital_share to 0 to disable residual valuation (lifetime may then be None).
-        # No asset replacement is assumed.
         "appraisal": {
-            "capital_cost_chf": 925_000_000,  # Station-package CAPEX (CHF).
-            "lifetime_years": 80,  # Service life of the share valued below (years).
-            "capital_share": 0.60,  # Fraction of actual capital paid eligible for residual value.
-            # Total construction emissions (tonnes CO2e), spread over construction years.
-            # Pre-horizon emissions are charged at time zero; omitted entries mean zero.
-            # "construction_co2_tonnes": 0.0,  # Add a project-specific total when available.
+            "capital_cost_chf": 28_422_872,
+            "lifetime_years": 40,
+            "capital_share": 0.80,
+            "construction_co2_tonnes": 2_500.0,
         },
     },
-
-    # --- Tunnel package ---
-    # Core Tunnel & Winterthur Hub Package (A0 Gesamt, A1 Winterthur, A2 Tunnel)
-    #
-    # ⚠️ STUDENT INSTRUCTION:
-    # Replace this package with your own long-term or secondary interventions.
-    #
-    # SBB MehrSpur tunnel scope (opening dates are configured in adaptive_planning.py):
-    #
-    #       A0 Gesamtprojekt: System-wide technical integration,
-    #       ETCS Level 2 signaling, traction power supply, and overall project management.
-    #
-    #       A1 Winterthur: Major track layout reconfiguration at Winterthur HB,
-    #       adding grade-separated flyovers, extended platforms, and conflict-free routing.
-    #
-    #       A2 Tunnel: 8.3 km twin-tube Brüttenertunnel cutting directly between
-    #       Dietlikon/Bassersdorf and Winterthur, bypassing the curvy Effretikon bottleneck.
-    #
-    # Transport & Economic Impact:
-    #       Saves 4 minutes on covered routes and raises the comfort threshold by 15%.
-    #       Provides 17-minute service and the Winterthur hub improvements;
-    #       both packages together provide 15-minute service.
     "tunnel": {
-        "name": "Stage 2 - Tunnel & Winterthur Hub only",
-
-        # Railway improvements: the same section and service OD scope as above.
-        "railway_expansions": [
+        "name": "Stage 2 – 5 Additional Minor Underpasses",
+        "bike_highways": [
             {
-                "section_time_saving_min": 4.0,  # In-vehicle minutes saved relative to baseline.
-                "headway_reduction_min": 3.0,  # Minutes removed from the baseline service interval.
-                "capacity_increase": 0.15,  # Fraction of baseline peak-hour comfort capacity (+15%).
+                "name": "Minor Underpass 1 (24301014 ↔ 24301005)",
+                "area_pairs": MINOR_UNDERPASS_1,
+                "both_directions": True,
+                "effects": {"travel_time_reduction_pct": 15.0, "speed_increase_pct": 10.0},
+            },
+            {
+                "name": "Minor Underpass 2 (24301005 ↔ 24301018)",
+                "area_pairs": MINOR_UNDERPASS_2,
+                "both_directions": True,
+                "effects": {"travel_time_reduction_pct": 15.0, "speed_increase_pct": 10.0},
+            },
+            {
+                "name": "Minor Underpass 3 (24301018 ↔ 24301016)",
+                "area_pairs": MINOR_UNDERPASS_3,
+                "both_directions": True,
+                "effects": {"travel_time_reduction_pct": 15.0, "speed_increase_pct": 10.0},
+            },
+            {
+                "name": "Minor Underpass 4 (24701010 ↔ 24701016)",
+                "area_pairs": MINOR_UNDERPASS_4,
+                "both_directions": True,
+                "effects": {"travel_time_reduction_pct": 15.0, "speed_increase_pct": 10.0},
+            },
+            {
+                "name": "Minor Underpass 5 (24701017 ↔ 24701020)",
+                "area_pairs": MINOR_UNDERPASS_5,
+                "both_directions": True,
+                "effects": {"travel_time_reduction_pct": 15.0, "speed_increase_pct": 10.0},
             },
         ],
-
-        # Hub & Node Interventions
-        "mobility_hubs": [
-            {
-                "name": "Winterthur Multimodal Hub (A1)",
-                "zones": [
-                    {"municipality_name": "Winterthur"}
-                ],
-                "effects": {
-                    "access_time_reduction_pct": 25.0,
-                    "transfer_time_reduction_pct": 15.0, # Optimized platform connections at Winterthur HB
-                    # Frequency savings belong to the railway package only.
-                    "egress_time_reduction_pct": 20.0,
-                }
-            }
-        ],
-
-        # Appraisal considerations: the same valuation and construction conventions.
         "appraisal": {
-            "capital_cost_chf": 2_302_600_000,  # Tunnel/Winterthur package CAPEX (CHF).
-            "lifetime_years": 80,  # Service life of the share valued below (years).
-            "capital_share": 0.60,  # Fraction of actual capital paid eligible for residual value.
-            "construction_co2_tonnes": 300_000.0,  # Total construction emissions (tonnes CO2e).
+            "capital_cost_chf": 2_688_120,
+            "lifetime_years": 40,
+            "capital_share": 0.80,
+            "construction_co2_tonnes": 500.0,
         },
     },
 }
 
-# =============================================================================
-# 2. COMBINED-ONLY BENEFITS
-# =============================================================================
-# Extra effects available only when BOTH packages are operating. These minutes
-# are added to the package values: 6 minutes of section saving and 5 minutes
-# of headway reduction in total (20-minute baseline -> 15-minute service).
+# Synergie-Bonus, wenn Stage 1 + Stage 2 gemeinsam gebaut werden
 COMBINED_EFFECTS = {
-    "railway_expansions": [
+    "name": "Both stages – Complete Bike Highway & All 8 Underpasses",
+    "bike_highways": [
         {
-            "section_time_saving_min": 1.0,
-            "headway_reduction_min": 1.0,
-            "capacity_increase": 0.05,  # Extra fraction of baseline capacity, only when both packages operate.
-        },
+            "name": "Corridor Synergy (Continuous Grade-Separated Route)",
+            "area_pairs": CORRIDOR_AREA_PAIRS,
+            "both_directions": True,
+            "effects": {
+                "travel_time_reduction_pct": 4.0,
+                "speed_increase_pct": 3.0,
+            },
+        }
     ],
-    # Capacity increases are additive: +10% stations +15% tunnel +5% combined = +30% of baseline.
-    # Additional physical interventions can use the same dictionaries as above:
-    # "mobility_hubs": [{
-    #     "name": "Shared interchange improvement",
-    #     "zones": [{"municipality_name": "Dietlikon"}],
-    #     "effects": {"transfer_time_reduction_pct": 10.0},
-    # }],
-    # Add OD-specific PT effects as further railway_expansions entries.
-    # Other supported keys: bike_highways, road_capacity.
-    # Specify frequency changes above, to apply their waiting benefit only once.
 }
 
 

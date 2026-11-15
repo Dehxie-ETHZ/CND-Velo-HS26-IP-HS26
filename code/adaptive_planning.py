@@ -113,34 +113,41 @@ DEFAULT_TRIGGERS = {
 # Names and descriptions are generated below so timing edits need only one change.
 PLAN_DEFINITIONS = {
     "baseline": {
-        "name": "Baseline",
-        "initial_packages": [], "stations": None, "tunnel": None,
+        "name": "Baseline (Do Nothing)",
+        "initial_packages": [],
+        "stations": None,
+        "tunnel": None,
     },
     "static1": {
-        "name": "Static 1",
-        "initial_packages": ["stations"], "stations": None, "tunnel": None,
+        "name": "Static 1 (Partial Build)",
+        "initial_packages": ["stations"],
+        "stations": None,
+        "tunnel": None,
     },
     "static2": {
-        "name": "Static 2",
-        "initial_packages": ["stations", "tunnel"], "stations": None, "tunnel": None,
+        "name": "Static 2 (Full Build)",
+        "initial_packages": ["stations", "tunnel"],
+        "stations": None,
+        "tunnel": None,
     },
+    # Die weiteren Einträge (staged1, staged2, flexible) lässt du unverändert!
     "staged1": {
-        "name": "Staged 1",
-        "initial_packages": [],
-        "stations": {"type": "fixed", "opening_year": 8},
-        "tunnel": {"type": "fixed", "opening_year": 11},
+        "name": "Staged",
+        "initial_packages": ["stations"],  # Stage 1 startet direkt in Jahr 1
+        "stations": None,
+        "tunnel": {"type": "fixed", "opening_year": 20},  # Stage 2 folgt nach 20 Jahren
     },
     "staged2": {
-        "name": "Staged 2",
+        "name": "Staged 2 (Unused)",
         "initial_packages": [],
         "stations": {"type": "fixed", "opening_year": 6},
         "tunnel": {"type": "fixed", "opening_year": 15},
     },
     "flexible": {
         "name": "Flexible",
-        "initial_packages": [],
-        "stations": {"type": "trigger", "trigger": "trigger1"},
-        "tunnel": {"type": "trigger", "trigger": "trigger2"},
+        "initial_packages": ["stations"],  # Stage 1 startet direkt in Jahr 1
+        "stations": None,
+        "tunnel": {"type": "trigger", "trigger": "trigger1"},  # Stage 2 wartet auf Velo-Trigger
     },
 }
 

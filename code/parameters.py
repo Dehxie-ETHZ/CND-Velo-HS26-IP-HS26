@@ -53,8 +53,8 @@ NOMINAL_PARAMS = {
     "PT_ASC_SHIFT_Y40": 0.10,  # Nominal final PT preference shift (utility units).
     "BIKE_ASC_SHIFT": 0.0,  # Additive preference shift for standalone cycling (utility units).
     # "BIKE_ASC_SHIFT_Y40": 0.20,  # Optional nominal final cycling preference shift (utility units).
-    "EBIKE_SHARE": 0.25,  # Baseline e-bike fraction of cycling and PT bicycle access/egress trips (0 to 1).
-    "EBIKE_SHARE_Y40": 0.50,  # Nominal final e-bike share.
+    "EBIKE_SHARE": 0.30,      # Heute ~30% der Velofahrten/Distanz im Raum Zürich
+    "EBIKE_SHARE_Y40": 0.60,  # In 40 Jahren ~60% (S-Pedelecs & E-Bikes dominieren Pendlerstrecken)
     "EBIKE_SPEED_MULTIPLIER": 1.5,  # E-bike speed divided by conventional-bike speed; 1.5 means 50% faster.
     "ROAD_FREIGHT_GROWTH": 0.0,  # Growth in prepared commercial/freight vehicles and their synthetic uplift.
     "ROAD_FREIGHT_GROWTH_Y40": 0.10,  # Nominal final growth of prepared background road vehicles.
@@ -110,7 +110,7 @@ NOMINAL_PARAMS = {
     # Health rates apply to standalone cycling/walking person-km, including e-bikes.
     # The PT rate applies once per person-trip, including supplementary PT passengers.
     # Positive rates reduce societal costs; omitted rates default to zero.
-    # "BENEFIT_HEALTH_BIKE_PER_KM": 1.0,  # Cycling health benefit (CHF/person-km).
+    "BENEFIT_HEALTH_BIKE_PER_KM": 1.0,  # Cycling health benefit (CHF/person-km).
     # "BENEFIT_HEALTH_WALK_PER_KM": 1.0,  # Walking health benefit (CHF/person-km).
     # "BENEFIT_SOCIOECONOMIC_PT_PER_TRIP": 1.0,  # Additional PT benefit (CHF/person-trip).
 
@@ -150,7 +150,7 @@ NOMINAL_PARAMS = {
     "OPEX_MULTIPLIER": 1.0,  # Multiplier on annual infrastructure operating/maintenance costs.
     "CAPEX_MULTIPLIER": 1.0,  # Multiplier on construction costs and upfront option premiums.
     # Flexibility Premium (for pre-engineering or reservation)
-    "C_FLEX": 50_000_000,  # Upfront CHF per adaptive package; two options are paid at time zero even if unused.
+    "C_FLEX": 400_000,  # Upfront CHF per adaptive package (~15% of Stage 2 minor underpasses CAPEX)
 
     # -------------------------------------------------------------------------
     # Performance requirements and strategic mode-share indicators
@@ -167,30 +167,20 @@ NOMINAL_PARAMS = {
 globals().update(NOMINAL_PARAMS)
 
 # =============================================================================
-# 2. CORRIDOR
-# =============================================================================
-
 # -----------------------------------------------------------------------------
-# OPTION A: Define by Municipalities / Regions (Empty when in "zones" mode)
+# OPTION A: Define by Municipalities / Regions
 # -----------------------------------------------------------------------------
-CORRIDOR_REGIONS = {  # Named municipality groups defining the modeled corridor.
-    "Zürich": ["Zürich"],
-    "Winterthur": ["Winterthur"],
-    "Airport / Glattal": [
-        "Kloten", "Opfikon", "Wallisellen", "Dübendorf",
-        "Dietlikon", "Wangen-Brüttisellen", "Bassersdorf", "Rümlang",
-        "Illnau-Effretikon", "Lindau", "Nürensdorf"
-    ],
-    "Eastern Switzerland (Gateways)": [
-        "Wiesendangen", "Elsau",
-        "Elgg", "Hagenbuch"
-    ]
-}
-
-# Flat list of all corridor municipalities
-CORRIDOR_MUNICIPALITIES = [  # Derived flat list used by corridor selection and stage definitions.
-    muni for munis in CORRIDOR_REGIONS.values() for muni in munis
+CORRIDOR_MUNICIPALITIES = [
+    "Dietikon",
+    "Schlieren",
+    "Zürich",
+    "Unterengstringen",
+    "Oberengstringen",
+    "Urdorf",
 ]
+
+# (Option/Optional) Dateiname für den Cache deines neuen Netzwerks
+DETAILED_NETWORK_FILE = "data/processed/limmattal_detailed_network.pkl"
 
 # Optional project-relative or absolute detailed road-network cache path.
 # Notebook 02 prepares a missing cache; later notebooks require it to exist.
