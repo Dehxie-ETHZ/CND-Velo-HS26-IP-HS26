@@ -52,7 +52,7 @@ NOMINAL_PARAMS = {
     "PT_ASC_SHIFT": 0.0,  # Additive preference shift for both PT access modes (utility units, not percent).
     "PT_ASC_SHIFT_Y40": 0.10,  # Nominal final PT preference shift (utility units).
     "BIKE_ASC_SHIFT": 0.0,  # Additive preference shift for standalone cycling (utility units).
-    # "BIKE_ASC_SHIFT_Y40": 0.20,  # Optional nominal final cycling preference shift (utility units).
+    "BIKE_ASC_SHIFT_Y40": 0.20,  # Optional nominal final cycling preference shift (utility units).
     "EBIKE_SHARE": 0.30,      # Heute ~30% der Velofahrten/Distanz im Raum Zürich
     "EBIKE_SHARE_Y40": 0.60,  # In 40 Jahren ~60% (S-Pedelecs & E-Bikes dominieren Pendlerstrecken)
     "EBIKE_SPEED_MULTIPLIER": 1.5,  # E-bike speed divided by conventional-bike speed; 1.5 means 50% faster.
@@ -158,7 +158,7 @@ NOMINAL_PARAMS = {
     "MAX_AVG_TT": 15.0,  # Acceptability ceiling for peak car/PT in-vehicle time plus car delay (min/trip).
     "PT_SHARE_TARGET": 0.35,  # Teaching minimum for PT share of strategic passenger-km; baseline is about 31.9%.
     "MIN_STRATEGIC_PKM_DISTANCE": 5.0,  # Minimum OD distance for strategic mode-share indicators (km); not an appraisal cutoff.
-
+    "BIKE_TRIP_SHARE_TARGET": 0.18,  # Minimum cycling trip share: 18%.
     # Internal shared keys for appraisal and uncertainties; edit values in stages.py.
     **package_parameter_defaults(),
 }
@@ -185,7 +185,7 @@ DETAILED_NETWORK_FILE = "data/processed/limmattal_detailed_network.pkl"
 # Optional project-relative or absolute detailed road-network cache path.
 # Notebook 02 prepares a missing cache; later notebooks require it to exist.
 # None uses the existing default cache. For a new project, select a new filename.
-DETAILED_NETWORK_FILE = None  # Example: "data/processed/my_project_detailed_network.pkl"
+#DETAILED_NETWORK_FILE = None  # Example: "data/processed/my_project_detailed_network.pkl"
 
 # -----------------------------------------------------------------------------
 # OPTION B: Define by Explicit Zone IDs
@@ -231,18 +231,14 @@ SECTION_DEFAULTS = {  # Generic fallback settings; configure the project's SECTI
     "coverage_file": None,                # None uses an automatically regenerated cache.
     "crowding_enabled": False,            # this version values crowding only for PT
 }
-SECTION = {  # Active project section and endpoints used for its travel-time reference.
+
+SECTION = {
     **SECTION_DEFAULTS,
-    "active": True,                       # Include this count and its effects in model/appraisal outputs.
-    "kind": "pt_approach",                # PT station approach, cycling route or individual PT stop.
-    "station": "Winterthur",              # Station whose approach is counted.
-    "towards": "Effretikon",              # Select the side facing this station, including express services.
-    "coverage_file": "data/processed/section_coverage.npz",  # Supplied example; refreshed if inputs or definition change.
-    "mode": "PT",                         # Mode using this section; must match an enabled external flow.
-    "origin": {"municipality_name": "Zürich"},  # Origin of the modeled travel-time reference.
-    "destination": {"municipality_name": "Winterthur"},  # Destination of that reference.
-    "crowding_enabled": True,             # Value extra PT discomfort using the section comfort threshold.
+    "active": False,
+    "crowding_enabled": False,
+    "coverage_file": None,
 }
+
 
 # Alternative definitions (replace SECTION above; disable PT crowding for these).
 # Disable EXTERNAL_FLOW below, or calibrate a new cohort of the matching mode:
@@ -264,15 +260,10 @@ EXTERNAL_FLOW_DEFAULTS = {  # Generic fallback; configure the project's EXTERNAL
     "additional_trips_daily": 0.0,        # Existing person-trips/weekday missing from the retained model.
     "growth": "general",                  # "general" demand growth or "fixed"
 }
-EXTERNAL_FLOW = {  # One cohort shared by baseline and projects, added after mode choice.
+EXTERNAL_FLOW = {
     **EXTERNAL_FLOW_DEFAULTS,
-    "enabled": True,                      # Include this cohort's time costs and PT comfort loading.
-    "mode": "PT",                         # Existing PT passengers; must match SECTION.mode.
-    # One-time nominal Stage-0 calibration (25% e-bikes; 2% road-gap target):
-    # 120,000 target - 66,891.950467 modeled passengers/day, both directions.
-    # Winterthur approach towards Effretikon; connectivity-refined road network.
-    # Keep this cohort fixed across alternatives; only general demand growth applies.
-    "additional_trips_daily": 53_108.0495332632,  # Baseline supplementary person-trips/day, both directions.
+    "enabled": False,
+    "additional_trips_daily": 0.0,
 }
 
 
@@ -295,7 +286,9 @@ EXTERNAL_FLOW = {  # One cohort shared by baseline and projects, added after mod
 TRANSPORT_SURROGATE_TAIL_PROBABILITY = 0.002  # 0.1% in each unbounded marginal tail
 
 STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; notebooks select by use.
-    "PASSENGER_DEMAND_GROWTH": {  # Final cumulative passenger growth; -0.20 means 20% below baseline.
+     "PASSENGER_DEMAND_GROWTH": {
+        # Year-40 cumulative passenger-demand growth relative to today.
+        # Range: -20% to +50%; nominal endpoint / mode: +20%.
         "category": "transport_modelling",
         "use": "scenarios",
         "transient": True,
@@ -303,82 +296,38 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
         "minimum": -0.20,
         "maximum": 0.50,
     },
-    "PT_ASC_SHIFT": {  # Final additive PT preference shift; negative values reduce PT attractiveness.
+
+    "BIKE_ASC_SHIFT": {
+        # Future cycling preference shift, in utility units, not percent.
+        # Range: -0.50 to +1.00; nominal endpoint / mode: +0.20.
         "category": "transport_modelling",
         "use": "scenarios",
         "transient": True,
         "distribution": "triangular",
-        "minimum": -0.10,
-        "maximum": 0.30,
+        "minimum": -0.50,
+        "maximum": 1.00,
     },
-    # Uncomment together with BIKE_ASC_SHIFT_Y40 above to include cycling preferences.
-    # "BIKE_ASC_SHIFT": {
-    #     "category": "transport_modelling",
-    #     "use": "scenarios",
-    #     "transient": True,
-    #     "distribution": "triangular",
-    #     "minimum": -0.50,
-    #     "maximum": 1.00,
-    # },
-    "EBIKE_SHARE": {  # Final e-bike fraction; starts from the known baseline share.
+
+    "EBIKE_SHARE": {
+        # Year-40 e-bike share.
+        # Fixed Year-1 baseline: 0.30.
+        # Endpoint range: 0.40 to 0.80; nominal endpoint / mode: 0.60.
         "category": "transport_modelling",
         "use": "scenarios",
         "transient": True,
         "distribution": "triangular",
-        "minimum": 0.35,
+        "minimum": 0.40,
         "maximum": 0.80,
     },
-    "ROAD_FREIGHT_GROWTH": {  # Final prepared-background growth; sigma is in growth-fraction units.
-        "category": "transport_modelling",
-        "use": "scenarios",
-        "transient": True,
-        "distribution": "normal",
-        "sigma": 0.05,
-    },
-    "C_TT_PT": {  # PT value-of-time sensitivity; one CHF/person-hour draw for the whole horizon.
-        "category": "post_modelling",
-        "use": "sensitivity",
-        "transient": False,
-        "distribution": "uniform",
-        "minimum": 19.89,
-        "maximum": 33.15,
-    },
-    "C_TT_CAR": {  # Car value-of-time sensitivity, including congestion time.
-        "category": "post_modelling",
-        "use": "sensitivity",
-        "transient": False,
-        "distribution": "uniform",
-        "minimum": 31.91,
-        "maximum": 53.18,
-    },
-    "CO2_VALUE_CHF_PER_TONNE": {  # Draw the reference-year value once (constant 2019 CHF/tonne CO2).
-        # Triangular mode is the general reference value; the engine applies
-        # CO2_VALUE_ANNUAL_GROWTH from CO2_REFERENCE_YEAR to each appraisal year.
-        "category": "post_modelling",
-        "use": "sensitivity",
-        "transient": False,
-        "distribution": "triangular",
-        "minimum": 70.0,
-        "maximum": 217.0,
-    },
-    "CAR_CO2_KG_PER_VEHICLE_KM": {  # Final car emissions (kg CO2/vehicle-km); sigma is relative to its nominal endpoint.
-        "category": "post_modelling",
-        "use": "scenarios",
-        "transient": True,
-        "distribution": "normal",
-        "sigma": 0.15,
-        "relative_sigma": True,
-    },
-    "NUMBER_OF_PEAK_HOURS": {  # Sensitivity: equally likely 3, 4 or 5 peak hours, constant over time.
-        "category": "post_modelling",
-        "use": "sensitivity",
-        "transient": False,
-        "distribution": "uniform",
-        "minimum": 3,
-        "maximum": 5,
-        "integer": True,
-    },
-    "OPEX_MULTIPLIER": {  # Operating-cost multiplier, sampled once per future.
+
+    # =====================================================================
+    # Scenario uncertainties: post modelling
+    # Sample one multiplier per future and hold it constant over the horizon.
+    # =====================================================================
+
+    "OPEX_MULTIPLIER": {
+        # Infrastructure operation and maintenance cost multiplier.
+        # Range: 50% to 150% of the nominal cost.
         "category": "post_modelling",
         "use": "scenarios",
         "transient": False,
@@ -386,7 +335,10 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
         "minimum": 0.50,
         "maximum": 1.50,
     },
-    "CAPEX_MULTIPLIER": {  # Construction/option-cost multiplier; sampled once per future.
+
+    "CAPEX_MULTIPLIER": {
+        # Construction and upfront option-cost multiplier.
+        # Range: 80% to 120% of nominal; mode: 1.00.
         "category": "post_modelling",
         "use": "scenarios",
         "transient": False,
@@ -394,21 +346,33 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
         "minimum": 0.80,
         "maximum": 1.20,
     },
-    "ACCIDENT_COST_MULTIPLIER": {  # Final road/rail accident-cost factor.
+
+    # =====================================================================
+    # Appraisal sensitivity assumptions: Notebook 05
+    # Stay nominal during Notebook 03 scenario sampling.
+    # The following ranges are provisional testing assumptions.
+    # =====================================================================
+
+    "BENEFIT_HEALTH_BIKE_PER_KM": {
+        # Cycling health benefit [CHF/person-km].
+        # Nominal value: 1.00; provisional range: +/-50%.
         "category": "post_modelling",
-        "use": "scenarios",
-        "transient": True,
-        "distribution": "normal",
-        "sigma": 0.15,
-        "relative_sigma": True,
+        "use": "sensitivity",
+        "transient": False,
+        "distribution": "uniform",
+        "minimum": 0.50,
+        "maximum": 1.50,
     },
-    "LOCAL_AIR_COST_MULTIPLIER": {  # Final road/rail local air-pollution cost factor.
+
+    "C_TT_BIKE": {
+        # Cycling value of time [CHF/person-hour].
+        # Nominal value: 35.00; provisional range: +/-25%.
         "category": "post_modelling",
-        "use": "scenarios",
-        "transient": True,
-        "distribution": "normal",
-        "sigma": 0.15,
-        "relative_sigma": True,
+        "use": "sensitivity",
+        "transient": False,
+        "distribution": "uniform",
+        "minimum": 26.25,
+        "maximum": 43.75,
     },
 }
 

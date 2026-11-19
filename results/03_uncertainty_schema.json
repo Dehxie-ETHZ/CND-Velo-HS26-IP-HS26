@@ -1,0 +1,55 @@
+{
+  "surrogate_fingerprint": "23980df92a58fcd541fc",
+  "surrogate_artifact_sha256": "ccbb4c3a485d27570036782bc9a927a3e0c734336ecc4c352650e4176d8c83eb",
+  "response_table_fingerprint": "d99cf1df6b08d31f6d8c",
+  "surrogate_format_version": 3,
+  "transport_uncertainties": [
+    "PASSENGER_DEMAND_GROWTH",
+    "BIKE_ASC_SHIFT",
+    "EBIKE_SHARE"
+  ],
+  "post_modelling_uncertainties": [
+    "OPEX_MULTIPLIER",
+    "CAPEX_MULTIPLIER"
+  ],
+  "scenario_uncertainties": [
+    "PASSENGER_DEMAND_GROWTH",
+    "BIKE_ASC_SHIFT",
+    "EBIKE_SHARE",
+    "OPEX_MULTIPLIER",
+    "CAPEX_MULTIPLIER"
+  ],
+  "physical_domain": {
+    "PASSENGER_DEMAND_GROWTH": {
+      "minimum": -0.2,
+      "maximum": 0.5,
+      "nominal": 0.0
+    },
+    "PT_ASC_SHIFT": {
+      "minimum": 0.0,
+      "maximum": 0.1,
+      "nominal": 0.0
+    },
+    "BIKE_ASC_SHIFT": {
+      "minimum": -0.5,
+      "maximum": 1.0,
+      "nominal": 0.0
+    },
+    "EBIKE_SHARE": {
+      "minimum": 0.3,
+      "maximum": 0.8,
+      "nominal": 0.3
+    },
+    "ROAD_FREIGHT_GROWTH": {
+      "minimum": 0.0,
+      "maximum": 0.1,
+      "nominal": 0.0
+    }
+  },
+  "stages": [
+    0,
+    1,
+    2,
+    3
+  ]
+}

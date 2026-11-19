@@ -179,7 +179,7 @@ CORRIDOR_ZONES = [
 ]
 
 CORRIDOR_AREA_PAIRS = [
-    {"origin": {"zone_id": str(z1)}, "destination": {"zone_id": str(z2)}}
+    {"origin": {"grid_id": str(z1)}, "destination": {"grid_id": str(z2)}}
     for z1 in CORRIDOR_ZONES for z2 in CORRIDOR_ZONES if z1 != z2
 ]
 
@@ -188,16 +188,16 @@ CORRIDOR_AREA_PAIRS = [
 # -----------------------------------------------------------------------------
 
 # 3 grosse Unterführungen (Stage 1)
-MAJOR_UNDERPASS_1 = [{"origin": {"zone_id": "24301018"}, "destination": {"zone_id": "24301022"}}]
-MAJOR_UNDERPASS_2 = [{"origin": {"zone_id": "24301022"}, "destination": {"zone_id": "25101001"}}]
-MAJOR_UNDERPASS_3 = [{"origin": {"zone_id": "24701009"}, "destination": {"zone_id": "24701013"}}]
+MAJOR_UNDERPASS_1 = [{"origin": {"grid_id": "24301018"}, "destination": {"grid_id": "24301022"}}]
+MAJOR_UNDERPASS_2 = [{"origin": {"grid_id": "24301022"}, "destination": {"grid_id": "25101001"}}]
+MAJOR_UNDERPASS_3 = [{"origin": {"grid_id": "24701009"}, "destination": {"grid_id": "24701013"}}]
 
 # 5 kleine Unterführungen (Stage 2)
-MINOR_UNDERPASS_1 = [{"origin": {"zone_id": "24301014"}, "destination": {"zone_id": "24301005"}}]
-MINOR_UNDERPASS_2 = [{"origin": {"zone_id": "24301005"}, "destination": {"zone_id": "24301018"}}]
-MINOR_UNDERPASS_3 = [{"origin": {"zone_id": "24301018"}, "destination": {"zone_id": "24301016"}}]
-MINOR_UNDERPASS_4 = [{"origin": {"zone_id": "24701010"}, "destination": {"zone_id": "24701016"}}]
-MINOR_UNDERPASS_5 = [{"origin": {"zone_id": "24701017"}, "destination": {"zone_id": "24701020"}}]
+MINOR_UNDERPASS_1 = [{"origin": {"grid_id": "24301014"}, "destination": {"grid_id": "24301005"}}]
+MINOR_UNDERPASS_2 = [{"origin": {"grid_id": "24301005"}, "destination": {"grid_id": "24301018"}}]
+MINOR_UNDERPASS_3 = [{"origin": {"grid_id": "24301018"}, "destination": {"grid_id": "24301016"}}]
+MINOR_UNDERPASS_4 = [{"origin": {"grid_id": "24701010"}, "destination": {"grid_id": "24701016"}}]
+MINOR_UNDERPASS_5 = [{"origin": {"grid_id": "24701017"}, "destination": {"grid_id": "24701020"}}]
 
 # =============================================================================
 # PACKAGES DEFINITION
