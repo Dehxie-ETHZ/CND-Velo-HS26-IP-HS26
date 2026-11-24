@@ -1,0 +1,5 @@
+﻿configuration,initial_shortfall_percent,all_requirements_met_percent,mean_failure_years,median_first_failure_year_among_failures
+Stage 0 – Baseline Network,0.0,45.0,9.78,20.0
+Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,0.0,53.5,8.16,20.0
+Stage 2 – 5 Additional Minor Underpasses,0.0,45.0,9.76,20.0
+Both stages - Tunnel and Hubs,0.0,54.5,7.89,20.0

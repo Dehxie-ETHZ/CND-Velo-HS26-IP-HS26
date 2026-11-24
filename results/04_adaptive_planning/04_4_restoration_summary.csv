@@ -1,0 +1,5 @@
+﻿transition,scenarios_with_window,with_window_percent,reachable_window_percent,mean_restorable_years,median_last_restoration_decision
+Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,73,36.5,36.5,1.62,24.0
+Stage 0 – Baseline Network → Stage 2 – 5 Additional Minor Underpasses,4,2.0,2.0,0.02,18.0
+Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,19,9.5,9.5,0.27,26.0
+Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,76,38.0,38.0,1.87,24.5

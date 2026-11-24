@@ -1,0 +1,5 @@
+﻿requirement,plan,box_source,density_in_plan,coverage_in_plan
+1: bike_share_trips > 0.18,baseline,baseline,1.0,0.7941176470588235
+1: bike_share_trips > 0.18,adaptive,adaptive,1.0,0.8837209302325582
+2: congestion_delay_hours < 8.2e+06,baseline,baseline,1.0,0.6233766233766234
+2: congestion_delay_hours < 8.2e+06,adaptive,adaptive,1.0,0.6056338028169014

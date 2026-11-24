@@ -1,0 +1,7 @@
+﻿plan,name,description,initial state,Station package,Tunnel package
+baseline,Baseline (Do Nothing) — Baseline throughout the 40-year horizon,Baseline throughout the 40-year horizon,Stage 0 – Baseline Network,no later addition,no later addition
+static1,Static 1 (Partial Build) — Stations only from Year 1,Stations only from Year 1,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,no later addition,no later addition
+static2,Static 2 (Full Build) — Stations + tunnel from Year 1,Stations + tunnel from Year 1,Both stages - Tunnel and Hubs,no later addition,no later addition
+staged1,"Staged 1 — Stations only from Year 1, Tunnel in Year 20","Stations only from Year 1, Tunnel in Year 20",Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,no later addition,fixed
+staged2,"Staged 2 (Realistic schedule) — Stations in Year 5, Tunnel in Year 16","Stations in Year 5, Tunnel in Year 16",Stage 0 – Baseline Network,fixed,fixed
+adaptive,"Adaptive — Stations only from Year 1, Tunnel via Trigger 2","Stations only from Year 1, Tunnel via Trigger 2",Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,no later addition,"When Peak-hour bike demand exceeds 66,000 trips/peak hour for 2 consecutive years, decide to build; open after a 3-year lead time."

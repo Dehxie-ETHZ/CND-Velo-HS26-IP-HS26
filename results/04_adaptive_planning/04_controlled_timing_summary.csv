@@ -1,0 +1,7 @@
+﻿shape,parameter,endpoint,failure_years,bike_share_trips_failure_years,bike_share_trips_first_failure_year,congestion_delay_hours_failure_years,congestion_delay_hours_first_failure_year,package_1_decision_year,package_1_opening_year,package_2_decision_year,package_2_opening_year,discounted_expenditure_MCHF
+linear,PASSENGER_DEMAND_GROWTH,0.3225176065070115,20,0,,20,21,,1,19,22,46.11090021878289
+early,PASSENGER_DEMAND_GROWTH,0.3225176065070115,31,0,,31,10,,1,12,15,46.63313446768216
+late,PASSENGER_DEMAND_GROWTH,0.3225176065070115,7,0,,7,34,,1,27,30,45.59630895274021
+logistic,PASSENGER_DEMAND_GROWTH,0.3225176065070115,20,0,,20,21,,1,21,24,45.97451187224865
+almost_flat,PASSENGER_DEMAND_GROWTH,0.3225176065070115,2,0,,2,39,,1,36,39,45.10694266282983
+random_walk,PASSENGER_DEMAND_GROWTH,0.3225176065070115,23,0,,23,17,,1,18,21,46.181146969146354

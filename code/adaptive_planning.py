@@ -69,22 +69,24 @@ SIGNPOSTS = {
 }
 
 DEFAULT_TRIGGERS = {
-    # Trigger 1: Section demand -> package 1 (local stations and access)
+    # Trigger 1 -> package "stations" = Stage 1 (bike highway + 3 major underpasses). (NiS-C)
+    # Signpost: peak-hour bike trips in the corridor (observable with bike counters). (NiS-C)
+    # Threshold ~ +3% over the Stage-0 Year-1 level (~51,300, Notebook 03). (NiS-C)
+    # Not used by the current plans (Stage 1 opens in Year 1), kept valid for staged2/tests. (NiS-C)
     "trigger1": {
-        "signpost":        "section_combined_daily",
-        "threshold":       125_000,
-        "persistence":     2,       # Consecutive years above threshold
-        "lead_time":       6,       # Years of planning and station civil works
+        "signpost":        "bike_trips",
+        "threshold":       55_000,
+        "persistence":     2,       # Consecutive years above threshold (NiS-C)
+        "lead_time":       4,       # Planning, land acquisition, Schlieren zoning revision, construction (NiS-C)
     },
-    # Trigger 2: The same section count -> package 2 (Brüttenertunnel)
-    # An absolute daily count keeps the signpost comparable when stations add
-    # capacity. The action threshold is separate from comfort capacity.
+    # Trigger 2 -> package "tunnel" = Stage 2 (5 minor underpasses). (NiS-C)
+    # Threshold ~ +25% over the Stage-1 Year-1 level (~53,300, Notebook 03). (NiS-C)
+    # Last year's +77.7% (~94,700) was reached only in the top ~20% of scenarios by Year 40. (NiS-C)
     "trigger2": {
-        "signpost":        "section_combined_daily",
-        "threshold":       122_000,
+        "signpost":        "bike_trips",
+        "threshold":       66_000,
         "persistence":     2,
-        # Years of tunnel planning and construction after the decision.
-        "lead_time":       10,
+        "lead_time":       3,       # Permits + construction of minor underpasses (as in pre-study) (NiS-C)
     }
 }
 
@@ -130,24 +132,26 @@ PLAN_DEFINITIONS = {
         "stations": None,
         "tunnel": None,
     },
-    # Die weiteren Einträge (staged1, staged2, flexible) lässt du unverändert!
     "staged1": {
-        "name": "Staged",
+        "name": "Staged 1",
         "initial_packages": ["stations"],  # Stage 1 startet direkt in Jahr 1
         "stations": None,
         "tunnel": {"type": "fixed", "opening_year": 20},  # Stage 2 folgt nach 20 Jahren
     },
     "staged2": {
-        "name": "Staged 2 (Unused)",
+        # Realistic schedule: Stage 1 needs planning, land acquisition and the Schlieren (NiS-C)
+        # zoning revision (2026 earliest) -> opens Year 5. Stage 2 opens Year 16 (~2042, (NiS-C)
+        # Velogesetz implementation deadline, assuming Year 1 ~ 2026). (NiS-C)
+        "name": "Staged 2 (Realistic schedule)",
         "initial_packages": [],
-        "stations": {"type": "fixed", "opening_year": 6},
-        "tunnel": {"type": "fixed", "opening_year": 15},
+        "stations": {"type": "fixed", "opening_year": 5},
+        "tunnel": {"type": "fixed", "opening_year": 16},
     },
     "flexible": {
         "name": "Flexible",
         "initial_packages": ["stations"],  # Stage 1 startet direkt in Jahr 1
         "stations": None,
-        "tunnel": {"type": "trigger", "trigger": "trigger1"},  # Stage 2 wartet auf Velo-Trigger
+        "tunnel": {"type": "trigger", "trigger": "trigger2"},  # Stage 2 wartet auf Velo-Trigger (bike_trips) (NiS-C)
     },
 }
 

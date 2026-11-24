@@ -1,0 +1,601 @@
+﻿scenario,monitoring_indicator,monitoring_value,configuration,outcome,outcome_value
+1,bike_trips,60683.57941572032,Baseline,bike_share_trips,19.428574734573278
+2,bike_trips,60486.70341687207,Baseline,bike_share_trips,18.387224884642553
+3,bike_trips,58153.260457917,Baseline,bike_share_trips,18.74353206736337
+4,bike_trips,53256.41449655665,Baseline,bike_share_trips,16.204422553688868
+5,bike_trips,56413.33415212182,Baseline,bike_share_trips,17.109404296020923
+6,bike_trips,54912.42946110175,Baseline,bike_share_trips,18.158336454226514
+7,bike_trips,51041.985285185096,Baseline,bike_share_trips,17.074697274445196
+8,bike_trips,61107.49257817799,Baseline,bike_share_trips,17.6984901052251
+9,bike_trips,55338.078246950776,Baseline,bike_share_trips,18.008816409193987
+10,bike_trips,51969.14644937752,Baseline,bike_share_trips,17.12710553958139
+11,bike_trips,52392.98428201017,Baseline,bike_share_trips,15.618973789946523
+12,bike_trips,59671.07876454867,Baseline,bike_share_trips,18.248775181733123
+13,bike_trips,60604.834685852686,Baseline,bike_share_trips,19.19666516729702
+14,bike_trips,66815.18073314583,Baseline,bike_share_trips,19.4725063108367
+15,bike_trips,65409.86323394253,Baseline,bike_share_trips,19.712023651385337
+16,bike_trips,61026.394572062985,Baseline,bike_share_trips,19.884785375679574
+17,bike_trips,52657.795038975644,Baseline,bike_share_trips,17.7557655753425
+18,bike_trips,60227.93122978739,Baseline,bike_share_trips,18.512087144217762
+19,bike_trips,65583.04013161716,Baseline,bike_share_trips,20.29898323067962
+20,bike_trips,57237.78643358947,Baseline,bike_share_trips,16.285212457407162
+21,bike_trips,58870.75236058757,Baseline,bike_share_trips,18.360845672108994
+22,bike_trips,59656.03533984948,Baseline,bike_share_trips,19.139170855058964
+23,bike_trips,60653.13365042138,Baseline,bike_share_trips,17.690680503406032
+24,bike_trips,59372.75769492548,Baseline,bike_share_trips,18.174621878243972
+25,bike_trips,60771.201888347976,Baseline,bike_share_trips,17.489033752766048
+26,bike_trips,51239.33268272981,Baseline,bike_share_trips,17.30125170982717
+27,bike_trips,62800.000262738606,Baseline,bike_share_trips,18.959611861225493
+28,bike_trips,61840.61715029356,Baseline,bike_share_trips,18.964761853271213
+29,bike_trips,63318.28166810336,Baseline,bike_share_trips,21.48766487320675
+30,bike_trips,61359.20839708836,Baseline,bike_share_trips,19.90834217357686
+31,bike_trips,67885.295918503,Baseline,bike_share_trips,22.31541017900894
+32,bike_trips,49497.21442656497,Baseline,bike_share_trips,16.81063703454006
+33,bike_trips,58977.717824806925,Baseline,bike_share_trips,20.015604348573987
+34,bike_trips,62327.06129799018,Baseline,bike_share_trips,19.261269496970886
+35,bike_trips,72559.27403033545,Baseline,bike_share_trips,22.092551624221176
+36,bike_trips,55906.11714777694,Baseline,bike_share_trips,17.49392471498179
+37,bike_trips,59850.13546923876,Baseline,bike_share_trips,16.6113265166934
+38,bike_trips,55703.452984915406,Baseline,bike_share_trips,18.33252004645113
+39,bike_trips,61317.61855666144,Baseline,bike_share_trips,20.060635360625035
+40,bike_trips,66658.7041522029,Baseline,bike_share_trips,20.732381585856267
+41,bike_trips,50119.55131474867,Baseline,bike_share_trips,15.380776512734254
+42,bike_trips,58564.08910939995,Baseline,bike_share_trips,18.39451958589958
+43,bike_trips,51154.853523911326,Baseline,bike_share_trips,15.021666012315535
+44,bike_trips,57727.932913038705,Baseline,bike_share_trips,16.587158268804735
+45,bike_trips,64032.97742089813,Baseline,bike_share_trips,19.190181255722067
+46,bike_trips,62751.645758606486,Baseline,bike_share_trips,19.574766629866776
+47,bike_trips,67574.55295501061,Baseline,bike_share_trips,20.52355933341088
+48,bike_trips,60152.8765406637,Baseline,bike_share_trips,18.210788552309907
+49,bike_trips,62330.38175030533,Baseline,bike_share_trips,18.225670166836565
+50,bike_trips,68182.07630906427,Baseline,bike_share_trips,21.592704359649407
+51,bike_trips,50517.19942227842,Baseline,bike_share_trips,16.020979191005672
+52,bike_trips,63996.05049209911,Baseline,bike_share_trips,19.374990187986043
+53,bike_trips,59442.67402624822,Baseline,bike_share_trips,18.663356424809084
+54,bike_trips,56874.95457129295,Baseline,bike_share_trips,17.325906361602442
+55,bike_trips,56543.884964829216,Baseline,bike_share_trips,17.121521558724304
+56,bike_trips,63357.276128162564,Baseline,bike_share_trips,17.681688487152307
+57,bike_trips,52106.48061213216,Baseline,bike_share_trips,15.281099043056697
+58,bike_trips,70355.55456111445,Baseline,bike_share_trips,21.973181662907812
+59,bike_trips,66786.3124076355,Baseline,bike_share_trips,21.056362034837747
+60,bike_trips,54198.18828840419,Baseline,bike_share_trips,16.00211299497011
+61,bike_trips,62853.29793405983,Baseline,bike_share_trips,19.00271627519023
+62,bike_trips,58811.3042988674,Baseline,bike_share_trips,16.456992144925717
+63,bike_trips,62937.831877759134,Baseline,bike_share_trips,21.247641690956392
+64,bike_trips,59074.57275873031,Baseline,bike_share_trips,17.708559881748037
+65,bike_trips,68659.4207757273,Baseline,bike_share_trips,20.73224740807608
+66,bike_trips,60075.567743695465,Baseline,bike_share_trips,20.807091232443963
+67,bike_trips,55434.98682411296,Baseline,bike_share_trips,18.072569902642446
+68,bike_trips,58245.889356209744,Baseline,bike_share_trips,18.086179794625732
+69,bike_trips,55655.765461917916,Baseline,bike_share_trips,17.26201069773411
+70,bike_trips,59119.462360212325,Baseline,bike_share_trips,19.257051734845774
+71,bike_trips,59839.16478016012,Baseline,bike_share_trips,17.08121608889396
+72,bike_trips,50816.67199566313,Baseline,bike_share_trips,15.989134021623755
+73,bike_trips,53013.37892519053,Baseline,bike_share_trips,16.436973283601517
+74,bike_trips,61596.562309869776,Baseline,bike_share_trips,18.58363890518625
+75,bike_trips,59997.65895034212,Baseline,bike_share_trips,18.73370607558522
+76,bike_trips,52926.89232561541,Baseline,bike_share_trips,17.748074605210377
+77,bike_trips,61756.962110570654,Baseline,bike_share_trips,18.959655867978324
+78,bike_trips,58055.788708158434,Baseline,bike_share_trips,17.27816214694735
+79,bike_trips,69193.20873126037,Baseline,bike_share_trips,20.10204117814165
+80,bike_trips,51961.83391718786,Baseline,bike_share_trips,14.8094854707905
+81,bike_trips,67028.39402033322,Baseline,bike_share_trips,20.603211070815682
+82,bike_trips,56173.143232965325,Baseline,bike_share_trips,16.033348047033467
+83,bike_trips,66266.00288902475,Baseline,bike_share_trips,22.0013173574453
+84,bike_trips,58934.056148767406,Baseline,bike_share_trips,19.285707982332077
+85,bike_trips,71469.88836423517,Baseline,bike_share_trips,21.206352286876616
+86,bike_trips,63661.9107174332,Baseline,bike_share_trips,20.222872163492468
+87,bike_trips,55151.83123245705,Baseline,bike_share_trips,15.948974480941686
+88,bike_trips,70220.13737818638,Baseline,bike_share_trips,20.208765360330116
+89,bike_trips,55668.415558216555,Baseline,bike_share_trips,17.524627699802352
+90,bike_trips,56409.55883858871,Baseline,bike_share_trips,15.66669430845963
+91,bike_trips,58878.089784881435,Baseline,bike_share_trips,17.3309338073497
+92,bike_trips,50977.008692895004,Baseline,bike_share_trips,16.343222228068004
+93,bike_trips,54157.65993627248,Baseline,bike_share_trips,17.203626470944126
+94,bike_trips,55120.09732651329,Baseline,bike_share_trips,15.736058208125545
+95,bike_trips,56599.42537354222,Baseline,bike_share_trips,17.678457882784574
+96,bike_trips,67169.97633531631,Baseline,bike_share_trips,19.75578517615452
+97,bike_trips,58332.46440691453,Baseline,bike_share_trips,17.946107258252102
+98,bike_trips,51057.96993253649,Baseline,bike_share_trips,16.55549014747228
+99,bike_trips,62456.094961838266,Baseline,bike_share_trips,17.75001416815402
+100,bike_trips,61264.72349391372,Baseline,bike_share_trips,18.808314101885497
+1,bike_trips,60683.57941572032,Stage 1,bike_share_trips,20.064539859037783
+2,bike_trips,60486.70341687207,Stage 1,bike_share_trips,19.01176469753509
+3,bike_trips,58153.260457917,Stage 1,bike_share_trips,19.365727630531197
+4,bike_trips,53256.41449655665,Stage 1,bike_share_trips,16.808254506525795
+5,bike_trips,56413.33415212182,Stage 1,bike_share_trips,17.715599524358893
+6,bike_trips,54912.42946110175,Stage 1,bike_share_trips,18.793226482890837
+7,bike_trips,51041.985285185096,Stage 1,bike_share_trips,17.676791960959513
+8,bike_trips,61107.49257817799,Stage 1,bike_share_trips,18.29722835114466
+9,bike_trips,55338.078246950776,Stage 1,bike_share_trips,18.63326275508705
+10,bike_trips,51969.14644937752,Stage 1,bike_share_trips,17.73489793543949
+11,bike_trips,52392.98428201017,Stage 1,bike_share_trips,16.189968683556366
+12,bike_trips,59671.07876454867,Stage 1,bike_share_trips,18.878699646342486
+13,bike_trips,60604.834685852686,Stage 1,bike_share_trips,19.82249178940602
+14,bike_trips,66815.18073314583,Stage 1,bike_share_trips,20.117344458867144
+15,bike_trips,65409.86323394253,Stage 1,bike_share_trips,20.351047997786697
+16,bike_trips,61026.394572062985,Stage 1,bike_share_trips,20.523513885000362
+17,bike_trips,52657.795038975644,Stage 1,bike_share_trips,18.370600363306316
+18,bike_trips,60227.93122978739,Stage 1,bike_share_trips,19.149841802492375
+19,bike_trips,65583.04013161716,Stage 1,bike_share_trips,20.95398626436088
+20,bike_trips,57237.78643358947,Stage 1,bike_share_trips,16.87664339997022
+21,bike_trips,58870.75236058757,Stage 1,bike_share_trips,18.97259846537586
+22,bike_trips,59656.03533984948,Stage 1,bike_share_trips,19.771956489098713
+23,bike_trips,60653.13365042138,Stage 1,bike_share_trips,18.29875333129241
+24,bike_trips,59372.75769492548,Stage 1,bike_share_trips,18.782913438948658
+25,bike_trips,60771.201888347976,Stage 1,bike_share_trips,18.098438362706393
+26,bike_trips,51239.33268272981,Stage 1,bike_share_trips,17.916146014915093
+27,bike_trips,62800.000262738606,Stage 1,bike_share_trips,19.58529121254267
+28,bike_trips,61840.61715029356,Stage 1,bike_share_trips,19.5919646412903
+29,bike_trips,63318.28166810336,Stage 1,bike_share_trips,22.139601046996958
+30,bike_trips,61359.20839708836,Stage 1,bike_share_trips,20.55798316987492
+31,bike_trips,67885.295918503,Stage 1,bike_share_trips,22.978298307355967
+32,bike_trips,49497.21442656497,Stage 1,bike_share_trips,17.399872930909883
+33,bike_trips,58977.717824806925,Stage 1,bike_share_trips,20.65725255054746
+34,bike_trips,62327.06129799018,Stage 1,bike_share_trips,19.89187473786287
+35,bike_trips,72559.27403033545,Stage 1,bike_share_trips,22.76686527408199
+36,bike_trips,55906.11714777694,Stage 1,bike_share_trips,18.088523126711483
+37,bike_trips,59850.13546923876,Stage 1,bike_share_trips,17.20581329953701
+38,bike_trips,55703.452984915406,Stage 1,bike_share_trips,18.954081596151436
+39,bike_trips,61317.61855666144,Stage 1,bike_share_trips,20.6988162737392
+40,bike_trips,66658.7041522029,Stage 1,bike_share_trips,21.392683057670308
+41,bike_trips,50119.55131474867,Stage 1,bike_share_trips,15.949856871363746
+42,bike_trips,58564.08910939995,Stage 1,bike_share_trips,19.006049124961525
+43,bike_trips,51154.853523911326,Stage 1,bike_share_trips,15.589411901760716
+44,bike_trips,57727.932913038705,Stage 1,bike_share_trips,17.19762995400067
+45,bike_trips,64032.97742089813,Stage 1,bike_share_trips,19.836828055297392
+46,bike_trips,62751.645758606486,Stage 1,bike_share_trips,20.21900314426675
+47,bike_trips,67574.55295501061,Stage 1,bike_share_trips,21.16679362638569
+48,bike_trips,60152.8765406637,Stage 1,bike_share_trips,18.834861824551954
+49,bike_trips,62330.38175030533,Stage 1,bike_share_trips,18.837828938678246
+50,bike_trips,68182.07630906427,Stage 1,bike_share_trips,22.25223019385976
+51,bike_trips,50517.19942227842,Stage 1,bike_share_trips,16.607501796725078
+52,bike_trips,63996.05049209911,Stage 1,bike_share_trips,20.00140235697808
+53,bike_trips,59442.67402624822,Stage 1,bike_share_trips,19.28985118113941
+54,bike_trips,56874.95457129295,Stage 1,bike_share_trips,17.945496365350746
+55,bike_trips,56543.884964829216,Stage 1,bike_share_trips,17.712803017739745
+56,bike_trips,63357.276128162564,Stage 1,bike_share_trips,18.30542543732254
+57,bike_trips,52106.48061213216,Stage 1,bike_share_trips,15.850923713393335
+58,bike_trips,70355.55456111445,Stage 1,bike_share_trips,22.636763375247156
+59,bike_trips,66786.3124076355,Stage 1,bike_share_trips,21.703317839046214
+60,bike_trips,54198.18828840419,Stage 1,bike_share_trips,16.584847478876856
+61,bike_trips,62853.29793405983,Stage 1,bike_share_trips,19.646790425617965
+62,bike_trips,58811.3042988674,Stage 1,bike_share_trips,17.04623129891223
+63,bike_trips,62937.831877759134,Stage 1,bike_share_trips,21.902853173524246
+64,bike_trips,59074.57275873031,Stage 1,bike_share_trips,18.336633519713697
+65,bike_trips,68659.4207757273,Stage 1,bike_share_trips,21.36962118818002
+66,bike_trips,60075.567743695465,Stage 1,bike_share_trips,21.468922636985166
+67,bike_trips,55434.98682411296,Stage 1,bike_share_trips,18.69240009771954
+68,bike_trips,58245.889356209744,Stage 1,bike_share_trips,18.72028837484021
+69,bike_trips,55655.765461917916,Stage 1,bike_share_trips,17.86715341080482
+70,bike_trips,59119.462360212325,Stage 1,bike_share_trips,19.88990705645889
+71,bike_trips,59839.16478016012,Stage 1,bike_share_trips,17.681335585293674
+72,bike_trips,50816.67199566313,Stage 1,bike_share_trips,16.578549450816276
+73,bike_trips,53013.37892519053,Stage 1,bike_share_trips,17.026639953280927
+74,bike_trips,61596.562309869776,Stage 1,bike_share_trips,19.20338496286428
+75,bike_trips,59997.65895034212,Stage 1,bike_share_trips,19.369768192350456
+76,bike_trips,52926.89232561541,Stage 1,bike_share_trips,18.360134587782188
+77,bike_trips,61756.962110570654,Stage 1,bike_share_trips,19.602028310920527
+78,bike_trips,58055.788708158434,Stage 1,bike_share_trips,17.8711577812739
+79,bike_trips,69193.20873126037,Stage 1,bike_share_trips,20.76208065119489
+80,bike_trips,51961.83391718786,Stage 1,bike_share_trips,15.368241547873318
+81,bike_trips,67028.39402033322,Stage 1,bike_share_trips,21.253863575568456
+82,bike_trips,56173.143232965325,Stage 1,bike_share_trips,16.62012295883287
+83,bike_trips,66266.00288902475,Stage 1,bike_share_trips,22.65310295038359
+84,bike_trips,58934.056148767406,Stage 1,bike_share_trips,19.92565309666155
+85,bike_trips,71469.88836423517,Stage 1,bike_share_trips,21.85666919415417
+86,bike_trips,63661.9107174332,Stage 1,bike_share_trips,20.863892073089325
+87,bike_trips,55151.83123245705,Stage 1,bike_share_trips,16.523916915448385
+88,bike_trips,70220.13737818638,Stage 1,bike_share_trips,20.87472820958907
+89,bike_trips,55668.415558216555,Stage 1,bike_share_trips,18.135965325322967
+90,bike_trips,56409.55883858871,Stage 1,bike_share_trips,16.254509730930415
+91,bike_trips,58878.089784881435,Stage 1,bike_share_trips,17.942990935698514
+92,bike_trips,50977.008692895004,Stage 1,bike_share_trips,16.93859800759493
+93,bike_trips,54157.65993627248,Stage 1,bike_share_trips,17.813604862223578
+94,bike_trips,55120.09732651329,Stage 1,bike_share_trips,16.313221870003698
+95,bike_trips,56599.42537354222,Stage 1,bike_share_trips,18.30120052995592
+96,bike_trips,67169.97633531631,Stage 1,bike_share_trips,20.40648798075366
+97,bike_trips,58332.46440691453,Stage 1,bike_share_trips,18.57244105932064
+98,bike_trips,51057.96993253649,Stage 1,bike_share_trips,17.157221811275416
+99,bike_trips,62456.094961838266,Stage 1,bike_share_trips,18.36442382629511
+100,bike_trips,61264.72349391372,Stage 1,bike_share_trips,19.43414607541246
+1,bike_trips,60683.57941572032,Stage 2,bike_share_trips,19.428325096388207
+2,bike_trips,60486.70341687207,Stage 2,bike_share_trips,18.386867509847217
+3,bike_trips,58153.260457917,Stage 2,bike_share_trips,18.743495981386488
+4,bike_trips,53256.41449655665,Stage 2,bike_share_trips,16.204395463551194
+5,bike_trips,56413.33415212182,Stage 2,bike_share_trips,17.10932653598327
+6,bike_trips,54912.42946110175,Stage 2,bike_share_trips,18.15843993505237
+7,bike_trips,51041.985285185096,Stage 2,bike_share_trips,17.07471877476717
+8,bike_trips,61107.49257817799,Stage 2,bike_share_trips,17.69856710813744
+9,bike_trips,55338.078246950776,Stage 2,bike_share_trips,18.009044487935817
+10,bike_trips,51969.14644937752,Stage 2,bike_share_trips,17.12729260909282
+11,bike_trips,52392.98428201017,Stage 2,bike_share_trips,15.61910840348306
+12,bike_trips,59671.07876454867,Stage 2,bike_share_trips,18.248320993867868
+13,bike_trips,60604.834685852686,Stage 2,bike_share_trips,19.196517453394417
+14,bike_trips,66815.18073314583,Stage 2,bike_share_trips,19.471212719800622
+15,bike_trips,65409.86323394253,Stage 2,bike_share_trips,19.711540179236962
+16,bike_trips,61026.394572062985,Stage 2,bike_share_trips,19.884499167489732
+17,bike_trips,52657.795038975644,Stage 2,bike_share_trips,17.75563470103095
+18,bike_trips,60227.93122978739,Stage 2,bike_share_trips,18.51153371847768
+19,bike_trips,65583.04013161716,Stage 2,bike_share_trips,20.298121663352582
+20,bike_trips,57237.78643358947,Stage 2,bike_share_trips,16.284678823996163
+21,bike_trips,58870.75236058757,Stage 2,bike_share_trips,18.360874583035237
+22,bike_trips,59656.03533984948,Stage 2,bike_share_trips,19.13898943141066
+23,bike_trips,60653.13365042138,Stage 2,bike_share_trips,17.6904103038325
+24,bike_trips,59372.75769492548,Stage 2,bike_share_trips,18.174668261685085
+25,bike_trips,60771.201888347976,Stage 2,bike_share_trips,17.488492173428106
+26,bike_trips,51239.33268272981,Stage 2,bike_share_trips,17.30121679401729
+27,bike_trips,62800.000262738606,Stage 2,bike_share_trips,18.959320167506718
+28,bike_trips,61840.61715029356,Stage 2,bike_share_trips,18.96448442192871
+29,bike_trips,63318.28166810336,Stage 2,bike_share_trips,21.486858411960945
+30,bike_trips,61359.20839708836,Stage 2,bike_share_trips,19.90796225418908
+31,bike_trips,67885.295918503,Stage 2,bike_share_trips,22.314326764066838
+32,bike_trips,49497.21442656497,Stage 2,bike_share_trips,16.810410520797625
+33,bike_trips,58977.717824806925,Stage 2,bike_share_trips,20.015086564628092
+34,bike_trips,62327.06129799018,Stage 2,bike_share_trips,19.26098659642922
+35,bike_trips,72559.27403033545,Stage 2,bike_share_trips,22.090529674006753
+36,bike_trips,55906.11714777694,Stage 2,bike_share_trips,17.494221246924813
+37,bike_trips,59850.13546923876,Stage 2,bike_share_trips,16.61064022481229
+38,bike_trips,55703.452984915406,Stage 2,bike_share_trips,18.33257485011128
+39,bike_trips,61317.61855666144,Stage 2,bike_share_trips,20.06032339302362
+40,bike_trips,66658.7041522029,Stage 2,bike_share_trips,20.731340137890374
+41,bike_trips,50119.55131474867,Stage 2,bike_share_trips,15.381142658020439
+42,bike_trips,58564.08910939995,Stage 2,bike_share_trips,18.394564245999344
+43,bike_trips,51154.853523911326,Stage 2,bike_share_trips,15.021633855107297
+44,bike_trips,57727.932913038705,Stage 2,bike_share_trips,16.58623266265426
+45,bike_trips,64032.97742089813,Stage 2,bike_share_trips,19.189250732613473
+46,bike_trips,62751.645758606486,Stage 2,bike_share_trips,19.57427446987904
+47,bike_trips,67574.55295501061,Stage 2,bike_share_trips,20.5231154187824
+48,bike_trips,60152.8765406637,Stage 2,bike_share_trips,18.210383512909086
+49,bike_trips,62330.38175030533,Stage 2,bike_share_trips,18.225448640682753
+50,bike_trips,68182.07630906427,Stage 2,bike_share_trips,21.591725525195105
+51,bike_trips,50517.19942227842,Stage 2,bike_share_trips,16.021447934350135
+52,bike_trips,63996.05049209911,Stage 2,bike_share_trips,19.37481021883335
+53,bike_trips,59442.67402624822,Stage 2,bike_share_trips,18.663177198048416
+54,bike_trips,56874.95457129295,Stage 2,bike_share_trips,17.325594001059372
+55,bike_trips,56543.884964829216,Stage 2,bike_share_trips,17.12173325096981
+56,bike_trips,63357.276128162564,Stage 2,bike_share_trips,17.68010561854707
+57,bike_trips,52106.48061213216,Stage 2,bike_share_trips,15.281060718552185
+58,bike_trips,70355.55456111445,Stage 2,bike_share_trips,21.972034061276727
+59,bike_trips,66786.3124076355,Stage 2,bike_share_trips,21.055777914741675
+60,bike_trips,54198.18828840419,Stage 2,bike_share_trips,16.002041324916284
+61,bike_trips,62853.29793405983,Stage 2,bike_share_trips,19.0019009573895
+62,bike_trips,58811.3042988674,Stage 2,bike_share_trips,16.45650097842445
+63,bike_trips,62937.831877759134,Stage 2,bike_share_trips,21.246925727739267
+64,bike_trips,59074.57275873031,Stage 2,bike_share_trips,17.707867429669353
+65,bike_trips,68659.4207757273,Stage 2,bike_share_trips,20.732029694497932
+66,bike_trips,60075.567743695465,Stage 2,bike_share_trips,20.806341062882773
+67,bike_trips,55434.98682411296,Stage 2,bike_share_trips,18.072756512140938
+68,bike_trips,58245.889356209744,Stage 2,bike_share_trips,18.085818964913233
+69,bike_trips,55655.765461917916,Stage 2,bike_share_trips,17.26213174981837
+70,bike_trips,59119.462360212325,Stage 2,bike_share_trips,19.256906510078405
+71,bike_trips,59839.16478016012,Stage 2,bike_share_trips,17.08083685149944
+72,bike_trips,50816.67199566313,Stage 2,bike_share_trips,15.989636350417669
+73,bike_trips,53013.37892519053,Stage 2,bike_share_trips,16.43725226317425
+74,bike_trips,61596.562309869776,Stage 2,bike_share_trips,18.583420240281853
+75,bike_trips,59997.65895034212,Stage 2,bike_share_trips,18.73334072028412
+76,bike_trips,52926.89232561541,Stage 2,bike_share_trips,17.747986823728258
+77,bike_trips,61756.962110570654,Stage 2,bike_share_trips,18.95902444384988
+78,bike_trips,58055.788708158434,Stage 2,bike_share_trips,17.278342945520496
+79,bike_trips,69193.20873126037,Stage 2,bike_share_trips,20.09987046808521
+80,bike_trips,51961.83391718786,Stage 2,bike_share_trips,14.809320332775057
+81,bike_trips,67028.39402033322,Stage 2,bike_share_trips,20.602472959305015
+82,bike_trips,56173.143232965325,Stage 2,bike_share_trips,16.032875348525074
+83,bike_trips,66266.00288902475,Stage 2,bike_share_trips,22.000414734190766
+84,bike_trips,58934.056148767406,Stage 2,bike_share_trips,19.285572758104237
+85,bike_trips,71469.88836423517,Stage 2,bike_share_trips,21.204997417035997
+86,bike_trips,63661.9107174332,Stage 2,bike_share_trips,20.22251573834704
+87,bike_trips,55151.83123245705,Stage 2,bike_share_trips,15.948930168316654
+88,bike_trips,70220.13737818638,Stage 2,bike_share_trips,20.20596884754379
+89,bike_trips,55668.415558216555,Stage 2,bike_share_trips,17.524755103380368
+90,bike_trips,56409.55883858871,Stage 2,bike_share_trips,15.665698993170954
+91,bike_trips,58878.089784881435,Stage 2,bike_share_trips,17.330454969239618
+92,bike_trips,50977.008692895004,Stage 2,bike_share_trips,16.343652521418317
+93,bike_trips,54157.65993627248,Stage 2,bike_share_trips,17.203916395359727
+94,bike_trips,55120.09732651329,Stage 2,bike_share_trips,15.735756614209606
+95,bike_trips,56599.42537354222,Stage 2,bike_share_trips,17.6783662238687
+96,bike_trips,67169.97633531631,Stage 2,bike_share_trips,19.754500025440784
+97,bike_trips,58332.46440691453,Stage 2,bike_share_trips,17.945775787385212
+98,bike_trips,51057.96993253649,Stage 2,bike_share_trips,16.555863580568648
+99,bike_trips,62456.094961838266,Stage 2,bike_share_trips,17.7491930720479
+100,bike_trips,61264.72349391372,Stage 2,bike_share_trips,18.80804791202068
+1,bike_trips,60683.57941572032,Baseline,congestion_delay_hours,6748797.047528775
+2,bike_trips,60486.70341687207,Baseline,congestion_delay_hours,7538986.387950539
+3,bike_trips,58153.260457917,Baseline,congestion_delay_hours,6547342.611093165
+4,bike_trips,53256.41449655665,Baseline,congestion_delay_hours,7305542.5126972245
+5,bike_trips,56413.33415212182,Baseline,congestion_delay_hours,7414266.230770994
+6,bike_trips,54912.42946110175,Baseline,congestion_delay_hours,6222064.832204898
+7,bike_trips,51041.985285185096,Baseline,congestion_delay_hours,5858959.647222817
+8,bike_trips,61107.49257817799,Baseline,congestion_delay_hours,8199851.075260286
+9,bike_trips,55338.078246950776,Baseline,congestion_delay_hours,6382894.447452191
+10,bike_trips,51969.14644937752,Baseline,congestion_delay_hours,6096811.449219949
+11,bike_trips,52392.98428201017,Baseline,congestion_delay_hours,7420480.648013635
+12,bike_trips,59671.07876454867,Baseline,congestion_delay_hours,7469299.020453858
+13,bike_trips,60604.834685852686,Baseline,congestion_delay_hours,6860281.10588897
+14,bike_trips,66815.18073314583,Baseline,congestion_delay_hours,8482048.308558479
+15,bike_trips,65409.86323394253,Baseline,congestion_delay_hours,7784407.718972534
+16,bike_trips,61026.394572062985,Baseline,congestion_delay_hours,6483270.034277486
+17,bike_trips,52657.795038975644,Baseline,congestion_delay_hours,5842897.8276332775
+18,bike_trips,60227.93122978739,Baseline,congestion_delay_hours,7437253.821417488
+19,bike_trips,65583.04013161716,Baseline,congestion_delay_hours,7508008.976560027
+20,bike_trips,57237.78643358947,Baseline,congestion_delay_hours,8450502.707523994
+21,bike_trips,58870.75236058757,Baseline,congestion_delay_hours,7012808.459735186
+22,bike_trips,59656.03533984948,Baseline,congestion_delay_hours,6693328.933584189
+23,bike_trips,60653.13365042138,Baseline,congestion_delay_hours,8136907.844236773
+24,bike_trips,59372.75769492548,Baseline,congestion_delay_hours,7299708.263064943
+25,bike_trips,60771.201888347976,Baseline,congestion_delay_hours,8413427.008647561
+26,bike_trips,51239.33268272981,Baseline,congestion_delay_hours,5814450.601943612
+27,bike_trips,62800.000262738606,Baseline,congestion_delay_hours,7668320.650089487
+28,bike_trips,61840.61715029356,Baseline,congestion_delay_hours,7409781.059514465
+29,bike_trips,63318.28166810336,Baseline,congestion_delay_hours,6083999.023472767
+30,bike_trips,61359.20839708836,Baseline,congestion_delay_hours,6633816.025822449
+31,bike_trips,67885.295918503,Baseline,congestion_delay_hours,6653328.835406199
+32,bike_trips,49497.21442656497,Baseline,congestion_delay_hours,5585796.90809267
+33,bike_trips,58977.717824806925,Baseline,congestion_delay_hours,5903236.878344453
+34,bike_trips,62327.06129799018,Baseline,congestion_delay_hours,7302244.283783231
+35,bike_trips,72559.27403033545,Baseline,congestion_delay_hours,8033338.537674522
+36,bike_trips,55906.11714777694,Baseline,congestion_delay_hours,6810148.285160166
+37,bike_trips,59850.13546923876,Baseline,congestion_delay_hours,9020867.079656295
+38,bike_trips,55703.452984915406,Baseline,congestion_delay_hours,6213585.527210201
+39,bike_trips,61317.61855666144,Baseline,congestion_delay_hours,6416297.535656253
+40,bike_trips,66658.7041522029,Baseline,congestion_delay_hours,7521707.162926429
+41,bike_trips,50119.55131474867,Baseline,congestion_delay_hours,6886396.706342017
+42,bike_trips,58564.08910939995,Baseline,congestion_delay_hours,6894526.800083663
+43,bike_trips,51154.853523911326,Baseline,congestion_delay_hours,7630928.714390598
+44,bike_trips,57727.932913038705,Baseline,congestion_delay_hours,8402262.853433805
+45,bike_trips,64032.97742089813,Baseline,congestion_delay_hours,7940258.68207317
+46,bike_trips,62751.645758606486,Baseline,congestion_delay_hours,7230624.279156382
+47,bike_trips,67574.55295501061,Baseline,congestion_delay_hours,7711259.019436746
+48,bike_trips,60152.8765406637,Baseline,congestion_delay_hours,7604963.714929916
+49,bike_trips,62330.38175030533,Baseline,congestion_delay_hours,8139832.621846413
+50,bike_trips,68182.07630906427,Baseline,congestion_delay_hours,7230632.03003704
+51,bike_trips,50517.19942227842,Baseline,congestion_delay_hours,6492448.354312373
+52,bike_trips,63996.05049209911,Baseline,congestion_delay_hours,7622032.755632617
+53,bike_trips,59442.67402624822,Baseline,congestion_delay_hours,7004944.217140169
+54,bike_trips,56874.95457129295,Baseline,congestion_delay_hours,7441677.940109381
+55,bike_trips,56543.884964829216,Baseline,congestion_delay_hours,7337560.749760454
+56,bike_trips,63357.276128162564,Baseline,congestion_delay_hours,9189879.234249394
+57,bike_trips,52106.48061213216,Baseline,congestion_delay_hours,7686484.887509597
+58,bike_trips,70355.55456111445,Baseline,congestion_delay_hours,7488347.157521304
+59,bike_trips,66786.3124076355,Baseline,congestion_delay_hours,7177186.465265589
+60,bike_trips,54198.18828840419,Baseline,congestion_delay_hours,7694009.467907419
+61,bike_trips,62853.29793405983,Baseline,congestion_delay_hours,7769364.65793519
+62,bike_trips,58811.3042988674,Baseline,congestion_delay_hours,8796205.599027479
+63,bike_trips,62937.831877759134,Baseline,congestion_delay_hours,6180113.024805745
+64,bike_trips,59074.57275873031,Baseline,congestion_delay_hours,7797760.631997151
+65,bike_trips,68659.4207757273,Baseline,congestion_delay_hours,7765911.042697049
+66,bike_trips,60075.567743695465,Baseline,congestion_delay_hours,5866803.069244424
+67,bike_trips,55434.98682411296,Baseline,congestion_delay_hours,6331499.141969805
+68,bike_trips,58245.889356209744,Baseline,congestion_delay_hours,7229411.1085134465
+69,bike_trips,55655.765461917916,Baseline,congestion_delay_hours,7026883.202354524
+70,bike_trips,59119.462360212325,Baseline,congestion_delay_hours,6449520.418741755
+71,bike_trips,59839.16478016012,Baseline,congestion_delay_hours,8483813.640103921
+72,bike_trips,50816.67199566313,Baseline,congestion_delay_hours,6627442.348094647
+73,bike_trips,53013.37892519053,Baseline,congestion_delay_hours,6902000.859978045
+74,bike_trips,61596.562309869776,Baseline,congestion_delay_hours,7637281.458661235
+75,bike_trips,59997.65895034212,Baseline,congestion_delay_hours,7159777.706116116
+76,bike_trips,52926.89232561541,Baseline,congestion_delay_hours,5900657.922746659
+77,bike_trips,61756.962110570654,Baseline,congestion_delay_hours,7491191.835536105
+78,bike_trips,58055.788708158434,Baseline,congestion_delay_hours,7651269.686255026
+79,bike_trips,69193.20873126037,Baseline,congestion_delay_hours,8746204.464311922
+80,bike_trips,51961.83391718786,Baseline,congestion_delay_hours,8093684.451638285
+81,bike_trips,67028.39402033322,Baseline,congestion_delay_hours,7602430.225587196
+82,bike_trips,56173.143232965325,Baseline,congestion_delay_hours,8343240.103507811
+83,bike_trips,66266.00288902475,Baseline,congestion_delay_hours,6424350.955258604
+84,bike_trips,58934.056148767406,Baseline,congestion_delay_hours,6415458.273219002
+85,bike_trips,71469.88836423517,Baseline,congestion_delay_hours,8321551.102390034
+86,bike_trips,63661.9107174332,Baseline,congestion_delay_hours,6915013.9289919175
+87,bike_trips,55151.83123245705,Baseline,congestion_delay_hours,8009390.8314840635
+88,bike_trips,70220.13737818638,Baseline,congestion_delay_hours,9025568.750113457
+89,bike_trips,55668.415558216555,Baseline,congestion_delay_hours,6829419.044547322
+90,bike_trips,56409.55883858871,Baseline,congestion_delay_hours,8899493.216603585
+91,bike_trips,58878.089784881435,Baseline,congestion_delay_hours,7996860.016329656
+92,bike_trips,50977.008692895004,Baseline,congestion_delay_hours,6394807.312784507
+93,bike_trips,54157.65993627248,Baseline,congestion_delay_hours,6654358.339089965
+94,bike_trips,55120.09732651329,Baseline,congestion_delay_hours,8256132.148681655
+95,bike_trips,56599.42537354222,Baseline,congestion_delay_hours,7043302.345073037
+96,bike_trips,67169.97633531631,Baseline,congestion_delay_hours,8337211.779006072
+97,bike_trips,58332.46440691453,Baseline,congestion_delay_hours,7335362.220229124
+98,bike_trips,51057.96993253649,Baseline,congestion_delay_hours,6273752.366831728
+99,bike_trips,62456.094961838266,Baseline,congestion_delay_hours,8729957.827604817
+100,bike_trips,61264.72349391372,Baseline,congestion_delay_hours,7381618.13303158
+1,bike_trips,60683.57941572032,Stage 1,congestion_delay_hours,6676133.898391041
+2,bike_trips,60486.70341687207,Stage 1,congestion_delay_hours,7457466.6937306505
+3,bike_trips,58153.260457917,Stage 1,congestion_delay_hours,6479731.966887386
+4,bike_trips,53256.41449655665,Stage 1,congestion_delay_hours,7235104.741235363
+5,bike_trips,56413.33415212182,Stage 1,congestion_delay_hours,7338612.533828883
+6,bike_trips,54912.42946110175,Stage 1,congestion_delay_hours,6161076.30116517
+7,bike_trips,51041.985285185096,Stage 1,congestion_delay_hours,5805518.167637937
+8,bike_trips,61107.49257817799,Stage 1,congestion_delay_hours,8110784.372955138
+9,bike_trips,55338.078246950776,Stage 1,congestion_delay_hours,6320217.747523007
+10,bike_trips,51969.14644937752,Stage 1,congestion_delay_hours,6040252.238493767
+11,bike_trips,52392.98428201017,Stage 1,congestion_delay_hours,7351024.148203783
+12,bike_trips,59671.07876454867,Stage 1,congestion_delay_hours,7389355.280393339
+13,bike_trips,60604.834685852686,Stage 1,congestion_delay_hours,6786525.591058731
+14,bike_trips,66815.18073314583,Stage 1,congestion_delay_hours,8383979.890676401
+15,bike_trips,65409.86323394253,Stage 1,congestion_delay_hours,7694945.523961263
+16,bike_trips,61026.394572062985,Stage 1,congestion_delay_hours,6413293.551308284
+17,bike_trips,52657.795038975644,Stage 1,congestion_delay_hours,5787817.149083072
+18,bike_trips,60227.93122978739,Stage 1,congestion_delay_hours,7356992.833708679
+19,bike_trips,65583.04013161716,Stage 1,congestion_delay_hours,7421925.4927653065
+20,bike_trips,57237.78643358947,Stage 1,congestion_delay_hours,8363241.638548869
+21,bike_trips,58870.75236058757,Stage 1,congestion_delay_hours,6939161.444006608
+22,bike_trips,59656.03533984948,Stage 1,congestion_delay_hours,6622395.278646708
+23,bike_trips,60653.13365042138,Stage 1,congestion_delay_hours,8048411.92643667
+24,bike_trips,59372.75769492548,Stage 1,congestion_delay_hours,7222261.995032582
+25,bike_trips,60771.201888347976,Stage 1,congestion_delay_hours,8322230.396853427
+26,bike_trips,51239.33268272981,Stage 1,congestion_delay_hours,5761127.412943193
+27,bike_trips,62800.000262738606,Stage 1,congestion_delay_hours,7582982.316169477
+28,bike_trips,61840.61715029356,Stage 1,congestion_delay_hours,7328388.09770763
+29,bike_trips,63318.28166810336,Stage 1,congestion_delay_hours,6017333.974520448
+30,bike_trips,61359.20839708836,Stage 1,congestion_delay_hours,6561726.443078643
+31,bike_trips,67885.295918503,Stage 1,congestion_delay_hours,6576968.876537844
+32,bike_trips,49497.21442656497,Stage 1,congestion_delay_hours,5536647.983781266
+33,bike_trips,58977.717824806925,Stage 1,congestion_delay_hours,5841193.083659922
+34,bike_trips,62327.06129799018,Stage 1,congestion_delay_hours,7221579.876310992
+35,bike_trips,72559.27403033545,Stage 1,congestion_delay_hours,7937410.103065565
+36,bike_trips,55906.11714777694,Stage 1,congestion_delay_hours,6741896.523095024
+37,bike_trips,59850.13546923876,Stage 1,congestion_delay_hours,8926258.295731943
+38,bike_trips,55703.452984915406,Stage 1,congestion_delay_hours,6152126.525617707
+39,bike_trips,61317.61855666144,Stage 1,congestion_delay_hours,6346808.906319308
+40,bike_trips,66658.7041522029,Stage 1,congestion_delay_hours,7434878.809415366
+41,bike_trips,50119.55131474867,Stage 1,congestion_delay_hours,6825450.639069999
+42,bike_trips,58564.08910939995,Stage 1,congestion_delay_hours,6822553.060527162
+43,bike_trips,51154.853523911326,Stage 1,congestion_delay_hours,7561041.801584497
+44,bike_trips,57727.932913038705,Stage 1,congestion_delay_hours,8313547.059566805
+45,bike_trips,64032.97742089813,Stage 1,congestion_delay_hours,7850062.692736411
+46,bike_trips,62751.645758606486,Stage 1,congestion_delay_hours,7150139.640145168
+47,bike_trips,67574.55295501061,Stage 1,congestion_delay_hours,7620982.534628924
+48,bike_trips,60152.8765406637,Stage 1,congestion_delay_hours,7523013.758249801
+49,bike_trips,62330.38175030533,Stage 1,congestion_delay_hours,8049913.272061078
+50,bike_trips,68182.07630906427,Stage 1,congestion_delay_hours,7146688.657429824
+51,bike_trips,50517.19942227842,Stage 1,congestion_delay_hours,6434572.434865542
+52,bike_trips,63996.05049209911,Stage 1,congestion_delay_hours,7536085.223004681
+53,bike_trips,59442.67402624822,Stage 1,congestion_delay_hours,6930693.69693381
+54,bike_trips,56874.95457129295,Stage 1,congestion_delay_hours,7365138.359603552
+55,bike_trips,56543.884964829216,Stage 1,congestion_delay_hours,7262953.819433808
+56,bike_trips,63357.276128162564,Stage 1,congestion_delay_hours,9088748.800853977
+57,bike_trips,52106.48061213216,Stage 1,congestion_delay_hours,7614702.485556276
+58,bike_trips,70355.55456111445,Stage 1,congestion_delay_hours,7400016.444917883
+59,bike_trips,66786.3124076355,Stage 1,congestion_delay_hours,7094411.10514106
+60,bike_trips,54198.18828840419,Stage 1,congestion_delay_hours,7618941.928547689
+61,bike_trips,62853.29793405983,Stage 1,congestion_delay_hours,7682412.876482069
+62,bike_trips,58811.3042988674,Stage 1,congestion_delay_hours,8704877.56432708
+63,bike_trips,62937.831877759134,Stage 1,congestion_delay_hours,6112594.034157102
+64,bike_trips,59074.57275873031,Stage 1,congestion_delay_hours,7714589.520001657
+65,bike_trips,68659.4207757273,Stage 1,congestion_delay_hours,7674324.142074959
+66,bike_trips,60075.567743695465,Stage 1,congestion_delay_hours,5804410.866499007
+67,bike_trips,55434.98682411296,Stage 1,congestion_delay_hours,6269254.933391066
+68,bike_trips,58245.889356209744,Stage 1,congestion_delay_hours,7153723.1406010445
+69,bike_trips,55655.765461917916,Stage 1,congestion_delay_hours,6956516.1895181015
+70,bike_trips,59119.462360212325,Stage 1,congestion_delay_hours,6381946.539059205
+71,bike_trips,59839.16478016012,Stage 1,congestion_delay_hours,8393144.969734626
+72,bike_trips,50816.67199566313,Stage 1,congestion_delay_hours,6567907.362626524
+73,bike_trips,53013.37892519053,Stage 1,congestion_delay_hours,6836600.56244819
+74,bike_trips,61596.562309869776,Stage 1,congestion_delay_hours,7553572.558950034
+75,bike_trips,59997.65895034212,Stage 1,congestion_delay_hours,7083035.143784022
+76,bike_trips,52926.89232561541,Stage 1,congestion_delay_hours,5844813.212480149
+77,bike_trips,61756.962110570654,Stage 1,congestion_delay_hours,7408659.9215412
+78,bike_trips,58055.788708158434,Stage 1,congestion_delay_hours,7571355.617273604
+79,bike_trips,69193.20873126037,Stage 1,congestion_delay_hours,8643387.437236778
+80,bike_trips,51961.83391718786,Stage 1,congestion_delay_hours,8018354.946071493
+81,bike_trips,67028.39402033322,Stage 1,congestion_delay_hours,7514111.016568184
+82,bike_trips,56173.143232965325,Stage 1,congestion_delay_hours,8258537.28832387
+83,bike_trips,66266.00288902475,Stage 1,congestion_delay_hours,6351571.13006209
+84,bike_trips,58934.056148767406,Stage 1,congestion_delay_hours,6348400.189270192
+85,bike_trips,71469.88836423517,Stage 1,congestion_delay_hours,8222554.489231291
+86,bike_trips,63661.9107174332,Stage 1,congestion_delay_hours,6837470.531924659
+87,bike_trips,55151.83123245705,Stage 1,congestion_delay_hours,7930165.605963911
+88,bike_trips,70220.13737818638,Stage 1,congestion_delay_hours,8919015.422564453
+89,bike_trips,55668.415558216555,Stage 1,congestion_delay_hours,6761305.979668116
+90,bike_trips,56409.55883858871,Stage 1,congestion_delay_hours,8809588.771808399
+91,bike_trips,58878.089784881435,Stage 1,congestion_delay_hours,7911748.7908013705
+92,bike_trips,50977.008692895004,Stage 1,congestion_delay_hours,6337004.416573376
+93,bike_trips,54157.65993627248,Stage 1,congestion_delay_hours,6589954.540337742
+94,bike_trips,55120.09732651329,Stage 1,congestion_delay_hours,8174220.301768443
+95,bike_trips,56599.42537354222,Stage 1,congestion_delay_hours,6971674.50733596
+96,bike_trips,67169.97633531631,Stage 1,congestion_delay_hours,8240035.458487494
+97,bike_trips,58332.46440691453,Stage 1,congestion_delay_hours,7258433.685304259
+98,bike_trips,51057.96993253649,Stage 1,congestion_delay_hours,6216731.595740501
+99,bike_trips,62456.094961838266,Stage 1,congestion_delay_hours,8634370.481369162
+100,bike_trips,61264.72349391372,Stage 1,congestion_delay_hours,7301144.3853253005
+1,bike_trips,60683.57941572032,Stage 2,congestion_delay_hours,6745385.748039577
+2,bike_trips,60486.70341687207,Stage 2,congestion_delay_hours,7533422.939365912
+3,bike_trips,58153.260457917,Stage 2,congestion_delay_hours,6545176.44114527
+4,bike_trips,53256.41449655665,Stage 2,congestion_delay_hours,7299384.136243501
+5,bike_trips,56413.33415212182,Stage 2,congestion_delay_hours,7409445.111492831
+6,bike_trips,54912.42946110175,Stage 2,congestion_delay_hours,6218450.804655079
+7,bike_trips,51041.985285185096,Stage 2,congestion_delay_hours,5857001.032899134
+8,bike_trips,61107.49257817799,Stage 2,congestion_delay_hours,8197278.905977281
+9,bike_trips,55338.078246950776,Stage 2,congestion_delay_hours,6380329.094317758
+10,bike_trips,51969.14644937752,Stage 2,congestion_delay_hours,6094654.877791383
+11,bike_trips,52392.98428201017,Stage 2,congestion_delay_hours,7417232.606516154
+12,bike_trips,59671.07876454867,Stage 2,congestion_delay_hours,7462573.670541013
+13,bike_trips,60604.834685852686,Stage 2,congestion_delay_hours,6857791.03929523
+14,bike_trips,66815.18073314583,Stage 2,congestion_delay_hours,8473172.102722954
+15,bike_trips,65409.86323394253,Stage 2,congestion_delay_hours,7779126.949758491
+16,bike_trips,61026.394572062985,Stage 2,congestion_delay_hours,6480538.403339511
+17,bike_trips,52657.795038975644,Stage 2,congestion_delay_hours,5840282.200063695
+18,bike_trips,60227.93122978739,Stage 2,congestion_delay_hours,7429882.194949872
+19,bike_trips,65583.04013161716,Stage 2,congestion_delay_hours,7500789.988839277
+20,bike_trips,57237.78643358947,Stage 2,congestion_delay_hours,8442092.65776438
+21,bike_trips,58870.75236058757,Stage 2,congestion_delay_hours,7010817.778573541
+22,bike_trips,59656.03533984948,Stage 2,congestion_delay_hours,6690043.436487606
+23,bike_trips,60653.13365042138,Stage 2,congestion_delay_hours,8131355.240414207
+24,bike_trips,59372.75769492548,Stage 2,congestion_delay_hours,7297507.560710618
+25,bike_trips,60771.201888347976,Stage 2,congestion_delay_hours,8406352.214052496
+26,bike_trips,51239.33268272981,Stage 2,congestion_delay_hours,5811483.127970689
+27,bike_trips,62800.000262738606,Stage 2,congestion_delay_hours,7663902.196145526
+28,bike_trips,61840.61715029356,Stage 2,congestion_delay_hours,7405565.5260239085
+29,bike_trips,63318.28166810336,Stage 2,congestion_delay_hours,6080715.420748776
+30,bike_trips,61359.20839708836,Stage 2,congestion_delay_hours,6629445.344225032
+31,bike_trips,67885.295918503,Stage 2,congestion_delay_hours,6648364.375224847
+32,bike_trips,49497.21442656497,Stage 2,congestion_delay_hours,5584095.7328701215
+33,bike_trips,58977.717824806925,Stage 2,congestion_delay_hours,5900216.223885343
+34,bike_trips,62327.06129799018,Stage 2,congestion_delay_hours,7298339.087714666
+35,bike_trips,72559.27403033545,Stage 2,congestion_delay_hours,8022820.362586387
+36,bike_trips,55906.11714777694,Stage 2,congestion_delay_hours,6809730.959998091
+37,bike_trips,59850.13546923876,Stage 2,congestion_delay_hours,9013422.077530915
+38,bike_trips,55703.452984915406,Stage 2,congestion_delay_hours,6211463.664157669
+39,bike_trips,61317.61855666144,Stage 2,congestion_delay_hours,6413906.876338072
+40,bike_trips,66658.7041522029,Stage 2,congestion_delay_hours,7513849.246474467
+41,bike_trips,50119.55131474867,Stage 2,congestion_delay_hours,6884571.715050418
+42,bike_trips,58564.08910939995,Stage 2,congestion_delay_hours,6892817.464077252
+43,bike_trips,51154.853523911326,Stage 2,congestion_delay_hours,7625551.615408631
+44,bike_trips,57727.932913038705,Stage 2,congestion_delay_hours,8390561.251107791
+45,bike_trips,64032.97742089813,Stage 2,congestion_delay_hours,7931135.364662089
+46,bike_trips,62751.645758606486,Stage 2,congestion_delay_hours,7225148.293612847
+47,bike_trips,67574.55295501061,Stage 2,congestion_delay_hours,7707166.026468424
+48,bike_trips,60152.8765406637,Stage 2,congestion_delay_hours,7598808.205000587
+49,bike_trips,62330.38175030533,Stage 2,congestion_delay_hours,8135430.387428744
+50,bike_trips,68182.07630906427,Stage 2,congestion_delay_hours,7224706.578596466
+51,bike_trips,50517.19942227842,Stage 2,congestion_delay_hours,6490967.62875959
+52,bike_trips,63996.05049209911,Stage 2,congestion_delay_hours,7618874.112309209
+53,bike_trips,59442.67402624822,Stage 2,congestion_delay_hours,7001087.607496342
+54,bike_trips,56874.95457129295,Stage 2,congestion_delay_hours,7434796.265388346
+55,bike_trips,56543.884964829216,Stage 2,congestion_delay_hours,7335822.0795073435
+56,bike_trips,63357.276128162564,Stage 2,congestion_delay_hours,9178647.045911912
+57,bike_trips,52106.48061213216,Stage 2,congestion_delay_hours,7681384.902769972
+58,bike_trips,70355.55456111445,Stage 2,congestion_delay_hours,7481577.404397832
+59,bike_trips,66786.3124076355,Stage 2,congestion_delay_hours,7173441.36337074
+60,bike_trips,54198.18828840419,Stage 2,congestion_delay_hours,7688970.51323489
+61,bike_trips,62853.29793405983,Stage 2,congestion_delay_hours,7760822.496805345
+62,bike_trips,58811.3042988674,Stage 2,congestion_delay_hours,8789449.37011876
+63,bike_trips,62937.831877759134,Stage 2,congestion_delay_hours,6176357.48277504
+64,bike_trips,59074.57275873031,Stage 2,congestion_delay_hours,7788659.161289133
+65,bike_trips,68659.4207757273,Stage 2,congestion_delay_hours,7763940.860541808
+66,bike_trips,60075.567743695465,Stage 2,congestion_delay_hours,5861982.761198596
+67,bike_trips,55434.98682411296,Stage 2,congestion_delay_hours,6329445.551824001
+68,bike_trips,58245.889356209744,Stage 2,congestion_delay_hours,7222626.905980309
+69,bike_trips,55655.765461917916,Stage 2,congestion_delay_hours,7023815.088845514
+70,bike_trips,59119.462360212325,Stage 2,congestion_delay_hours,6446846.755313306
+71,bike_trips,59839.16478016012,Stage 2,congestion_delay_hours,8477631.100549957
+72,bike_trips,50816.67199566313,Stage 2,congestion_delay_hours,6625533.080245148
+73,bike_trips,53013.37892519053,Stage 2,congestion_delay_hours,6899735.658545733
+74,bike_trips,61596.562309869776,Stage 2,congestion_delay_hours,7633104.906075713
+75,bike_trips,59997.65895034212,Stage 2,congestion_delay_hours,7154123.007155514
+76,bike_trips,52926.89232561541,Stage 2,congestion_delay_hours,5898379.0626836205
+77,bike_trips,61756.962110570654,Stage 2,congestion_delay_hours,7483848.729978434
+78,bike_trips,58055.788708158434,Stage 2,congestion_delay_hours,7649212.307489416
+79,bike_trips,69193.20873126037,Stage 2,congestion_delay_hours,8734206.196952248
+80,bike_trips,51961.83391718786,Stage 2,congestion_delay_hours,8087499.329343094
+81,bike_trips,67028.39402033322,Stage 2,congestion_delay_hours,7596530.761169092
+82,bike_trips,56173.143232965325,Stage 2,congestion_delay_hours,8334977.127327042
+83,bike_trips,66266.00288902475,Stage 2,congestion_delay_hours,6421036.011999824
+84,bike_trips,58934.056148767406,Stage 2,congestion_delay_hours,6412169.050109976
+85,bike_trips,71469.88836423517,Stage 2,congestion_delay_hours,8315263.065145576
+86,bike_trips,63661.9107174332,Stage 2,congestion_delay_hours,6911903.866141294
+87,bike_trips,55151.83123245705,Stage 2,congestion_delay_hours,8004840.955914335
+88,bike_trips,70220.13737818638,Stage 2,congestion_delay_hours,9011355.72528206
+89,bike_trips,55668.415558216555,Stage 2,congestion_delay_hours,6826441.611973782
+90,bike_trips,56409.55883858871,Stage 2,congestion_delay_hours,8888189.74622661
+91,bike_trips,58878.089784881435,Stage 2,congestion_delay_hours,7989312.230488631
+92,bike_trips,50977.008692895004,Stage 2,congestion_delay_hours,6393001.647621235
+93,bike_trips,54157.65993627248,Stage 2,congestion_delay_hours,6651764.69298364
+94,bike_trips,55120.09732651329,Stage 2,congestion_delay_hours,8249192.5236598775
+95,bike_trips,56599.42537354222,Stage 2,congestion_delay_hours,7038238.459983795
+96,bike_trips,67169.97633531631,Stage 2,congestion_delay_hours,8328177.407843796
+97,bike_trips,58332.46440691453,Stage 2,congestion_delay_hours,7329090.0346641
+98,bike_trips,51057.96993253649,Stage 2,congestion_delay_hours,6271647.451579336
+99,bike_trips,62456.094961838266,Stage 2,congestion_delay_hours,8722334.957378292
+100,bike_trips,61264.72349391372,Stage 2,congestion_delay_hours,7377322.557465905

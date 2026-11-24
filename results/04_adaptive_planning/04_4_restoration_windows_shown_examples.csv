@@ -1,0 +1,16 @@
+﻿scenario,source_state,target_state,package,transition,window_number,opening_window_start,opening_window_end,restorable_years,construction_years,decision_by_window_start,last_restoration_decision_year,earliest_rule_decision_year,earliest_rule_opening_year,reachable_from_new_monitoring,whole_window_reachable,continues_to_horizon
+131,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,14,14,1,4,10,10,3,7,True,True,False
+72,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,19,19,1,4,15,15,3,7,True,True,False
+170,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,25,30,6,4,21,26,3,7,True,True,False
+55,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,30,11,4,16,26,3,7,True,True,False
+186,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,28,28,1,4,24,24,3,7,True,True,False
+67,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,39,40,2,4,35,36,3,7,True,True,True
+72,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,20,20,1,3,17,17,3,6,True,True,False
+170,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,20,24,5,3,17,21,3,6,True,True,False
+186,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,29,29,1,3,26,26,3,6,True,True,False
+131,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,14,14,1,4,10,10,3,7,True,True,False
+72,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,19,20,2,4,15,16,3,7,True,True,False
+170,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,30,11,4,16,26,3,7,True,True,False
+55,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,30,11,4,16,26,3,7,True,True,False
+186,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,28,29,2,4,24,25,3,7,True,True,False
+67,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,39,40,2,4,35,36,3,7,True,True,True

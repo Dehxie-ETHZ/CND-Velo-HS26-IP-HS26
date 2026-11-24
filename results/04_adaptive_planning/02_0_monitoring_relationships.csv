@@ -1,0 +1,43 @@
+﻿comparison,monitoring_indicator,outcome,monitoring_unit,outcome_unit,n,r_squared,slope,spearman_r,outcome_range
+baseline,bike_trips,bike_share_trips,person-trips/peak hour,%,100,0.7175,2.780e-04,0.8504,7.5059
+baseline,bike_trips,congestion_delay_hours,person-trips/peak hour,person-hours/year,100,0.1652,6.369e+01,0.3822,3604082.3262
+baseline,bike_share,bike_share_trips,%,%,100,0.9586,2.345e+00,0.9754,7.5059
+baseline,bike_share,congestion_delay_hours,%,person-hours/year,100,0.0113,-1.215e+05,-0.088,3604082.3262
+baseline,bike_share_trips,bike_share_trips,%,%,100,0.9995,1.399e+00,0.9999,7.5059
+baseline,bike_share_trips,congestion_delay_hours,%,person-hours/year,100,0.0192,-9.268e+04,-0.1251,3604082.3262
+baseline,car_share_trips,bike_share_trips,%,%,100,0.8207,-4.187e+00,-0.9054,7.5059
+baseline,car_share_trips,congestion_delay_hours,%,person-hours/year,100,0.077,-6.124e+05,-0.2635,3604082.3262
+baseline,car_trips,bike_share_trips,person-trips/peak hour,%,100,0.04,-9.865e-05,-0.191,7.5059
+baseline,car_trips,congestion_delay_hours,person-trips/peak hour,person-hours/year,100,0.9918,2.345e+02,0.9954,3604082.3262
+baseline,co2_tonnes,bike_share_trips,tonnes/year,%,100,0.0047,-1.503e-05,-0.0656,7.5059
+baseline,co2_tonnes,congestion_delay_hours,tonnes/year,person-hours/year,100,0.9911,1.043e+02,0.9966,3604082.3262
+baseline,congestion_delay_hours,bike_share_trips,person-hours/year,%,100,0.0143,-3.375e-07,-0.1111,7.5059
+baseline,congestion_delay_hours,congestion_delay_hours,person-hours/year,person-hours/year,100,0.9993,1.349e+00,0.9996,3604082.3262
+stage1_change,bike_trips,bike_share_trips,person-trips/peak hour,percentage points,100,0.6501,3.869e-06,0.8112,0.1156
+stage1_change,bike_trips,congestion_delay_hours,person-trips/peak hour,person-hours/year,100,0.5554,-1.729e+00,-0.7112,57404.4032
+stage1_change,bike_share,bike_share_trips,%,percentage points,100,0.7462,3.025e-02,0.8679,0.1156
+stage1_change,bike_share,congestion_delay_hours,%,person-hours/year,100,0.094,-5.189e+03,-0.2989,57404.4032
+stage1_change,bike_share_trips,bike_share_trips,%,percentage points,100,0.8855,1.926e-02,0.9494,0.1156
+stage1_change,bike_share_trips,congestion_delay_hours,%,person-hours/year,100,0.0791,-2.782e+03,-0.2691,57404.4032
+stage1_change,car_share_trips,bike_share_trips,%,percentage points,100,0.6966,-5.641e-02,-0.8382,0.1156
+stage1_change,car_share_trips,congestion_delay_hours,%,person-hours/year,100,0.418,2.112e+04,0.6167,57404.4032
+stage1_change,car_trips,bike_share_trips,person-trips/peak hour,percentage points,100,0.0279,-1.204e-06,-0.1604,0.1156
+stage1_change,car_trips,congestion_delay_hours,person-trips/peak hour,person-hours/year,100,0.7721,-3.062e+00,-0.874,57404.4032
+stage1_change,co2_tonnes,bike_share_trips,tonnes/year,percentage points,100,0.0014,-1.194e-07,-0.0407,0.1156
+stage1_change,co2_tonnes,congestion_delay_hours,tonnes/year,person-hours/year,100,0.8707,-1.447e+00,-0.9294,57404.4032
+stage1_change,congestion_delay_hours,bike_share_trips,person-hours/year,percentage points,100,0.0063,-3.284e-09,-0.0803,0.1156
+stage1_change,congestion_delay_hours,congestion_delay_hours,person-hours/year,person-hours/year,100,0.8381,-1.829e-02,-0.9114,57404.4032
+stage2_change,bike_trips,bike_share_trips,person-trips/peak hour,percentage points,100,0.5825,-7.859e-08,-0.7649,0.0033
+stage2_change,bike_trips,congestion_delay_hours,person-trips/peak hour,person-hours/year,100,0.2037,-2.318e-01,-0.4519,13795.6997
+stage2_change,bike_share,bike_share_trips,%,percentage points,100,0.2315,-3.616e-04,-0.5073,0.0033
+stage2_change,bike_share,congestion_delay_hours,%,person-hours/year,100,0.0001,3.279e+01,-0.0291,13795.6997
+stage2_change,bike_share_trips,bike_share_trips,%,percentage points,100,0.2988,-2.401e-04,-0.5661,0.0033
+stage2_change,bike_share_trips,congestion_delay_hours,%,person-hours/year,100,0.0065,-1.766e+02,-0.116,13795.6997
+stage2_change,car_share_trips,bike_share_trips,%,percentage points,100,0.4867,1.012e-03,0.7106,0.0033
+stage2_change,car_share_trips,congestion_delay_hours,%,person-hours/year,100,0.1054,2.348e+03,0.3348,13795.6997
+stage2_change,car_trips,bike_share_trips,person-trips/peak hour,percentage points,100,0.2005,-6.928e-08,-0.4375,0.0033
+stage2_change,car_trips,congestion_delay_hours,person-trips/peak hour,person-hours/year,100,0.4995,-5.452e-01,-0.7059,13795.6997
+stage2_change,co2_tonnes,bike_share_trips,tonnes/year,percentage points,100,0.2842,-3.671e-08,-0.5254,0.0033
+stage2_change,co2_tonnes,congestion_delay_hours,tonnes/year,person-hours/year,100,0.5447,-2.534e-01,-0.7367,13795.6997
+stage2_change,congestion_delay_hours,bike_share_trips,person-hours/year,percentage points,100,0.2776,-4.672e-10,-0.5012,0.0033
+stage2_change,congestion_delay_hours,congestion_delay_hours,person-hours/year,person-hours/year,100,0.5662,-3.328e-03,-0.7368,13795.6997

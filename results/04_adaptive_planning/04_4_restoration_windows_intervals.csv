@@ -1,0 +1,189 @@
+﻿scenario,source_state,target_state,package,transition,window_number,opening_window_start,opening_window_end,restorable_years,construction_years,decision_by_window_start,last_restoration_decision_year,earliest_rule_decision_year,earliest_rule_opening_year,reachable_from_new_monitoring,whole_window_reachable,continues_to_horizon
+6,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,20,1,4,16,16,3,7,True,True,False
+6,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,20,1,4,16,16,3,7,True,True,False
+11,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,28,29,2,4,24,25,3,7,True,True,False
+11,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,30,30,1,3,27,27,3,6,True,True,False
+11,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,28,30,3,4,24,26,3,7,True,True,False
+13,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,29,30,2,4,25,26,3,7,True,True,False
+13,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,29,30,2,4,25,26,3,7,True,True,False
+14,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,35,37,3,4,31,33,3,7,True,True,False
+14,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,38,38,1,3,35,35,3,6,True,True,False
+14,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,35,38,4,4,31,34,3,7,True,True,False
+16,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,31,12,4,16,27,3,7,True,True,False
+16,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,31,12,4,16,27,3,7,True,True,False
+19,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,25,6,4,16,21,3,7,True,True,False
+19,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,2,37,38,2,4,33,34,3,7,True,True,False
+19,0,2,2,Stage 0 – Baseline Network → Stage 2 – 5 Additional Minor Underpasses,1,25,25,1,3,22,22,3,6,True,True,False
+19,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,24,5,4,16,20,3,7,True,True,False
+19,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,2,37,38,2,4,33,34,3,7,True,True,False
+20,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,28,29,2,4,24,25,3,7,True,True,False
+20,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,28,29,2,4,24,25,3,7,True,True,False
+24,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,17,17,1,4,13,13,3,7,True,True,False
+24,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,17,17,1,4,13,13,3,7,True,True,False
+25,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,26,7,4,16,22,3,7,True,True,False
+25,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,26,7,4,16,22,3,7,True,True,False
+26,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,35,36,2,4,31,32,3,7,True,True,False
+26,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,37,37,1,3,34,34,3,6,True,True,False
+26,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,35,37,3,4,31,33,3,7,True,True,False
+27,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,38,40,3,4,34,36,3,7,True,True,True
+27,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,38,40,3,4,34,36,3,7,True,True,True
+30,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,16,16,1,4,12,12,3,7,True,True,False
+30,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,16,16,1,4,12,12,3,7,True,True,False
+32,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,21,22,2,3,18,19,3,6,True,True,False
+32,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,21,22,2,4,17,18,3,7,True,True,False
+35,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,27,28,2,4,23,24,3,7,True,True,False
+35,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,27,28,2,4,23,24,3,7,True,True,False
+39,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,23,23,1,4,19,19,3,7,True,True,False
+39,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,23,23,1,4,19,19,3,7,True,True,False
+42,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,39,20,4,16,35,3,7,True,True,False
+42,0,2,2,Stage 0 – Baseline Network → Stage 2 – 5 Additional Minor Underpasses,1,39,39,1,3,36,36,3,6,True,True,False
+42,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,38,19,4,16,34,3,7,True,True,False
+46,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,19,19,1,4,15,15,3,7,True,True,False
+46,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,19,19,1,4,15,15,3,7,True,True,False
+49,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,30,31,2,4,26,27,3,7,True,True,False
+49,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,30,31,2,4,26,27,3,7,True,True,False
+55,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,30,11,4,16,26,3,7,True,True,False
+55,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,30,11,4,16,26,3,7,True,True,False
+62,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,20,40,21,3,17,37,3,6,True,True,True
+62,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,40,21,4,16,36,3,7,True,True,True
+66,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,40,21,4,16,36,3,7,True,True,True
+66,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,40,21,4,16,36,3,7,True,True,True
+67,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,39,40,2,4,35,36,3,7,True,True,True
+67,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,39,40,2,4,35,36,3,7,True,True,True
+68,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,22,22,1,4,18,18,3,7,True,True,False
+68,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,22,22,1,4,18,18,3,7,True,True,False
+70,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,19,19,1,4,15,15,3,7,True,True,False
+70,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,19,19,1,4,15,15,3,7,True,True,False
+72,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,19,19,1,4,15,15,3,7,True,True,False
+72,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,20,20,1,3,17,17,3,6,True,True,False
+72,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,19,20,2,4,15,16,3,7,True,True,False
+74,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,27,28,2,4,23,24,3,7,True,True,False
+74,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,27,28,2,4,23,24,3,7,True,True,False
+79,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,16,16,1,4,12,12,3,7,True,True,False
+79,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,16,16,1,4,12,12,3,7,True,True,False
+80,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,19,19,1,4,15,15,3,7,True,True,False
+80,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,19,19,1,4,15,15,3,7,True,True,False
+81,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,17,17,1,3,14,14,3,6,True,True,False
+81,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,17,17,1,4,13,13,3,7,True,True,False
+82,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,27,8,4,16,23,3,7,True,True,False
+82,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,27,8,4,16,23,3,7,True,True,False
+86,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,22,23,2,4,18,19,3,7,True,True,False
+86,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,22,23,2,4,18,19,3,7,True,True,False
+88,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,26,27,2,4,22,23,3,7,True,True,False
+88,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,26,27,2,4,22,23,3,7,True,True,False
+89,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,38,19,4,16,34,3,7,True,True,False
+89,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,38,19,4,16,34,3,7,True,True,False
+94,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,15,15,1,4,11,11,3,7,True,True,False
+94,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,15,15,1,4,11,11,3,7,True,True,False
+97,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,17,17,1,4,13,13,3,7,True,True,False
+97,0,2,2,Stage 0 – Baseline Network → Stage 2 – 5 Additional Minor Underpasses,1,17,17,1,3,14,14,3,6,True,True,False
+97,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,18,18,1,3,15,15,3,6,True,True,False
+97,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,18,18,1,4,14,14,3,7,True,True,False
+99,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,26,26,1,4,22,22,3,7,True,True,False
+99,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,27,27,1,3,24,24,3,6,True,True,False
+99,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,26,27,2,4,22,23,3,7,True,True,False
+107,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,38,19,4,16,34,3,7,True,True,False
+107,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,38,19,4,16,34,3,7,True,True,False
+110,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,24,25,2,4,20,21,3,7,True,True,False
+110,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,24,25,2,4,20,21,3,7,True,True,False
+113,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,20,1,4,16,16,3,7,True,True,False
+113,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,20,1,4,16,16,3,7,True,True,False
+114,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,32,13,4,16,28,3,7,True,True,False
+114,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,2,40,40,1,4,36,36,3,7,True,True,True
+114,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,32,13,4,16,28,3,7,True,True,False
+114,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,2,40,40,1,4,36,36,3,7,True,True,True
+116,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,33,34,2,4,29,30,3,7,True,True,False
+116,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,33,34,2,4,29,30,3,7,True,True,False
+117,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,20,1,4,16,16,3,7,True,True,False
+117,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,20,1,4,16,16,3,7,True,True,False
+118,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,18,18,1,4,14,14,3,7,True,True,False
+118,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,19,19,1,3,16,16,3,6,True,True,False
+118,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,18,19,2,4,14,15,3,7,True,True,False
+121,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,20,1,4,16,16,3,7,True,True,False
+121,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,20,1,4,16,16,3,7,True,True,False
+122,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,38,40,3,4,34,36,3,7,True,True,True
+122,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,38,40,3,4,34,36,3,7,True,True,True
+126,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,29,31,3,4,25,27,3,7,True,True,False
+126,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,29,31,3,4,25,27,3,7,True,True,False
+128,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,17,17,1,4,13,13,3,7,True,True,False
+128,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,17,17,1,4,13,13,3,7,True,True,False
+129,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,30,11,4,16,26,3,7,True,True,False
+129,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,2,33,33,1,4,29,29,3,7,True,True,False
+129,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,34,34,1,3,31,31,3,6,True,True,False
+129,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,30,11,4,16,26,3,7,True,True,False
+129,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,2,33,34,2,4,29,30,3,7,True,True,False
+131,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,14,14,1,4,10,10,3,7,True,True,False
+131,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,14,14,1,4,10,10,3,7,True,True,False
+134,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,27,8,4,16,23,3,7,True,True,False
+134,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,2,30,30,1,4,26,26,3,7,True,True,False
+134,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,27,8,4,16,23,3,7,True,True,False
+134,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,2,30,30,1,4,26,26,3,7,True,True,False
+138,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,31,31,1,4,27,27,3,7,True,True,False
+138,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,32,32,1,3,29,29,3,6,True,True,False
+138,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,31,32,2,4,27,28,3,7,True,True,False
+143,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,22,3,4,16,18,3,7,True,True,False
+143,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,2,40,40,1,4,36,36,3,7,True,True,True
+143,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,22,3,4,16,18,3,7,True,True,False
+143,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,2,40,40,1,4,36,36,3,7,True,True,True
+144,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,19,19,1,4,15,15,3,7,True,True,False
+144,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,19,19,1,4,15,15,3,7,True,True,False
+147,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,29,29,1,4,25,25,3,7,True,True,False
+147,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,30,30,1,3,27,27,3,6,True,True,False
+147,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,28,30,3,4,24,26,3,7,True,True,False
+149,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,14,14,1,4,10,10,3,7,True,True,False
+149,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,14,14,1,4,10,10,3,7,True,True,False
+152,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,29,30,2,4,25,26,3,7,True,True,False
+152,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,29,30,2,4,25,26,3,7,True,True,False
+155,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,27,8,4,16,23,3,7,True,True,False
+155,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,2,40,40,1,4,36,36,3,7,True,True,True
+155,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,27,8,4,16,23,3,7,True,True,False
+155,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,2,40,40,1,4,36,36,3,7,True,True,True
+159,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,21,2,4,16,17,3,7,True,True,False
+159,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,2,36,37,2,4,32,33,3,7,True,True,False
+159,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,21,2,4,16,17,3,7,True,True,False
+159,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,2,36,37,2,4,32,33,3,7,True,True,False
+163,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,20,1,4,16,16,3,7,True,True,False
+163,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,20,1,4,16,16,3,7,True,True,False
+164,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,21,21,1,4,17,17,3,7,True,True,False
+164,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,21,21,1,4,17,17,3,7,True,True,False
+165,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,26,7,4,16,22,3,7,True,True,False
+165,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,26,7,4,16,22,3,7,True,True,False
+167,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,21,2,4,16,17,3,7,True,True,False
+167,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,21,2,4,16,17,3,7,True,True,False
+169,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,40,21,4,16,36,3,7,True,True,True
+169,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,40,21,4,16,36,3,7,True,True,True
+170,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,25,30,6,4,21,26,3,7,True,True,False
+170,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,20,24,5,3,17,21,3,6,True,True,False
+170,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,30,11,4,16,26,3,7,True,True,False
+173,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,29,10,4,16,25,3,7,True,True,False
+173,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,29,10,4,16,25,3,7,True,True,False
+175,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,25,26,2,4,21,22,3,7,True,True,False
+175,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,25,26,2,4,21,22,3,7,True,True,False
+177,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,31,40,10,4,27,36,3,7,True,True,True
+177,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,20,30,11,3,17,27,3,6,True,True,False
+177,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,40,21,4,16,36,3,7,True,True,True
+178,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,14,14,1,4,10,10,3,7,True,True,False
+178,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,14,14,1,4,10,10,3,7,True,True,False
+181,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,29,10,4,16,25,3,7,True,True,False
+181,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,29,10,4,16,25,3,7,True,True,False
+184,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,34,35,2,4,30,31,3,7,True,True,False
+184,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,36,36,1,3,33,33,3,6,True,True,False
+184,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,34,36,3,4,30,32,3,7,True,True,False
+186,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,28,28,1,4,24,24,3,7,True,True,False
+186,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,29,29,1,3,26,26,3,6,True,True,False
+186,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,28,29,2,4,24,25,3,7,True,True,False
+187,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,17,17,1,4,13,13,3,7,True,True,False
+187,0,2,2,Stage 0 – Baseline Network → Stage 2 – 5 Additional Minor Underpasses,1,17,17,1,3,14,14,3,6,True,True,False
+187,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,18,18,1,3,15,15,3,6,True,True,False
+187,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,18,18,1,4,14,14,3,7,True,True,False
+188,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,24,24,1,4,20,20,3,7,True,True,False
+188,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,24,24,1,4,20,20,3,7,True,True,False
+190,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,28,28,1,4,24,24,3,7,True,True,False
+190,1,3,2,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses → Both stages - Tunnel and Hubs,1,29,29,1,3,26,26,3,6,True,True,False
+190,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,28,29,2,4,24,25,3,7,True,True,False
+195,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,33,35,3,4,29,31,3,7,True,True,False
+195,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,33,35,3,4,29,31,3,7,True,True,False
+197,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,1,20,22,3,4,16,18,3,7,True,True,False
+197,0,1,1,Stage 0 – Baseline Network → Stage 1 – Bike Highway Roll-out + 3 Major Underpasses,2,29,30,2,4,25,26,3,7,True,True,False
+197,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,1,20,22,3,4,16,18,3,7,True,True,False
+197,2,3,1,Stage 2 – 5 Additional Minor Underpasses → Both stages - Tunnel and Hubs,2,29,30,2,4,25,26,3,7,True,True,False

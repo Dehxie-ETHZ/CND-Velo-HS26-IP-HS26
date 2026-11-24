@@ -1,0 +1,9 @@
+﻿requirement,failure_percent,mean_failure_years,configuration
+Cycling trip share > 18 % (Years 20–40),34.0,6.0,Stage 0 – Baseline Network
+Road delay < 8.2e+06 person-hours/year (Years 10–40),38.5,5.74,Stage 0 – Baseline Network
+Cycling trip share > 18 % (Years 20–40),21.5,4.32,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses
+Road delay < 8.2e+06 person-hours/year (Years 10–40),35.5,5.19,Stage 1 – Bike Highway Roll-out + 3 Major Underpasses
+Cycling trip share > 18 % (Years 20–40),34.0,6.0,Stage 2 – 5 Additional Minor Underpasses
+Road delay < 8.2e+06 person-hours/year (Years 10–40),38.5,5.74,Stage 2 – 5 Additional Minor Underpasses
+Cycling trip share > 18 % (Years 20–40),20.0,4.1,Both stages - Tunnel and Hubs
+Road delay < 8.2e+06 person-hours/year (Years 10–40),35.5,5.11,Both stages - Tunnel and Hubs
