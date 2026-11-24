@@ -1,0 +1,5 @@
+﻿,uncertainty,case,input_start,input_end,units,input_basis
+0,BENEFIT_HEALTH_BIKE_PER_KM,P10,0.30000000000000004,0.30000000000000004,parameter units,Configured parameter input
+5,BENEFIT_HEALTH_BIKE_PER_KM,P90,1.1,1.1,parameter units,Configured parameter input
+10,C_TT_BIKE,P10,13.375,13.375,CHF/person-hour,Configured parameter input
+15,C_TT_BIKE,P90,40.375,40.375,CHF/person-hour,Configured parameter input

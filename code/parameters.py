@@ -66,7 +66,7 @@ NOMINAL_PARAMS = {
     # Cycling/walking use the processor's teaching assumption; no off-peak solve is run.
     "PT_PEAK_SHARE": 0.0946,  # Representative peak-hour PT trips / weekday PT trips; NPVM conversion assumption.
     "CAR_PEAK_SHARE": 0.1049,  # Representative peak-hour car trips / weekday car trips; NPVM conversion assumption.
-    "BIKE_PEAK_SHARE": 0.15,  # Peak-hour share of daily cycling trips; editable teaching assumption.
+    "BIKE_PEAK_SHARE": 0.22,  # Peak-hour share of daily cycling trips; editable teaching assumption.
     "WALK_PEAK_SHARE": 0.15,  # Peak-hour share of daily walking trips; editable teaching assumption.
     "EQUIVALENT_DAYS_PER_YEAR": 300,  # Equivalent operating weekdays represented in one appraisal year.
     "NUMBER_OF_PEAK_HOURS": 4,  # Hours/day exposed to modeled congestion and crowding; integer sensitivity.
@@ -101,7 +101,7 @@ NOMINAL_PARAMS = {
     "C_TT_PT_ACCESS": 26.52,  # PT access and egress walking/cycling time value (CHF/person-hour).
     "C_TT_PT_TRANSFER": 26.52,  # Physical transfer-walking time value (CHF/person-hour); excludes waiting.
     # Active-mode time is valued per person-hour, like PT/car passenger time.
-        "C_TT_BIKE": 35.0,  # Cycling value of time (CHF/person-hour)
+        "C_TT_BIKE": 18.0,  # Cycling value of time (CHF/person-hour)
     "C_TT_WALK": 16.0,  # Walking value of time (CHF/person-hour)
 
     # -------------------------------------------------------------------------
@@ -110,7 +110,7 @@ NOMINAL_PARAMS = {
     # Health rates apply to standalone cycling/walking person-km, including e-bikes.
     # The PT rate applies once per person-trip, including supplementary PT passengers.
     # Positive rates reduce societal costs; omitted rates default to zero.
-    "BENEFIT_HEALTH_BIKE_PER_KM": 1.0,  # Cycling health benefit (CHF/person-km).
+    "BENEFIT_HEALTH_BIKE_PER_KM": 0.35,  # Cycling health benefit (CHF/person-km).
     # "BENEFIT_HEALTH_WALK_PER_KM": 1.0,  # Walking health benefit (CHF/person-km).
     # "BENEFIT_SOCIOECONOMIC_PT_PER_TRIP": 1.0,  # Additional PT benefit (CHF/person-trip).
 
@@ -360,8 +360,8 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
         "use": "sensitivity",
         "transient": False,
         "distribution": "uniform",
-        "minimum": 0.50,
-        "maximum": 1.50,
+        "minimum": 0.20,
+        "maximum": 1.20,
     },
 
     "C_TT_BIKE": {
@@ -371,7 +371,7 @@ STRUCTURAL_UNCERTAINTIES = {  # Distributions for selected general parameters; n
         "use": "sensitivity",
         "transient": False,
         "distribution": "uniform",
-        "minimum": 26.25,
+        "minimum": 10.00,
         "maximum": 43.75,
     },
 }

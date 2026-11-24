@@ -69,22 +69,19 @@ SIGNPOSTS = {
 }
 
 DEFAULT_TRIGGERS = {
-    # Trigger 1: Section demand -> package 1 (local stations and access)
+    # Trigger 1: Bike PKM share -> Stage 2 (5 zusätzliche Unterführungen)
     "trigger1": {
-        "signpost":        "section_combined_daily",
-        "threshold":       125_000,
-        "persistence":     2,       # Consecutive years above threshold
-        "lead_time":       6,       # Years of planning and station civil works
+        "signpost":        "bike_share",
+        "threshold":       0.15,    # 15% Velo-Anteil an den Personenkilometern
+        "persistence":     2,       # 2 aufeinanderfolgende Jahre über Schwellenwert
+        "lead_time":       3,       # 3 Jahre Bewilligung & Bauzeit (vgl. HS26-Bericht)
     },
-    # Trigger 2: The same section count -> package 2 (Brüttenertunnel)
-    # An absolute daily count keeps the signpost comparable when stations add
-    # capacity. The action threshold is separate from comfort capacity.
+    # Trigger 2: Backup-Trigger (identisch für Stage 2)
     "trigger2": {
-        "signpost":        "section_combined_daily",
-        "threshold":       122_000,
+        "signpost":        "bike_share",
+        "threshold":       0.15,
         "persistence":     2,
-        # Years of tunnel planning and construction after the decision.
-        "lead_time":       10,
+        "lead_time":       3,
     }
 }
 

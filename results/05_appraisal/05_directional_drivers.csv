@@ -1,0 +1,181 @@
+﻿plan,outcome,uncertainty,spearman_correlation,scenarios,status
+baseline,NPV_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+baseline,NPV_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+baseline,NPV_MCHF,EBIKE_SHARE,,200,Insufficient variation
+baseline,NPV_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+baseline,NPV_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+baseline,NPV_car_time_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+baseline,NPV_car_time_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+baseline,NPV_car_time_MCHF,EBIKE_SHARE,,200,Insufficient variation
+baseline,NPV_car_time_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+baseline,NPV_car_time_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+baseline,NPV_pt_time_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+baseline,NPV_pt_time_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+baseline,NPV_pt_time_MCHF,EBIKE_SHARE,,200,Insufficient variation
+baseline,NPV_pt_time_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+baseline,NPV_pt_time_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+baseline,NPV_pt_crowding_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+baseline,NPV_pt_crowding_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+baseline,NPV_pt_crowding_MCHF,EBIKE_SHARE,,200,Insufficient variation
+baseline,NPV_pt_crowding_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+baseline,NPV_pt_crowding_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+baseline,NPV_inv_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+baseline,NPV_inv_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+baseline,NPV_inv_MCHF,EBIKE_SHARE,,200,Insufficient variation
+baseline,NPV_inv_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+baseline,NPV_inv_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+baseline,NPV_op_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+baseline,NPV_op_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+baseline,NPV_op_MCHF,EBIKE_SHARE,,200,Insufficient variation
+baseline,NPV_op_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+baseline,NPV_op_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+static1,NPV_MCHF,PASSENGER_DEMAND_GROWTH,0.7247476186904673,200,Estimated
+static1,NPV_MCHF,BIKE_ASC_SHIFT,0.6685382134553365,200,Estimated
+static1,NPV_MCHF,EBIKE_SHARE,-0.035034875871896805,200,Estimated
+static1,NPV_MCHF,OPEX_MULTIPLIER,-0.0525163129078227,200,Estimated
+static1,NPV_MCHF,CAPEX_MULTIPLIER,-0.036962424060601524,200,Estimated
+static1,NPV_car_time_MCHF,PASSENGER_DEMAND_GROWTH,0.9096122403060077,200,Estimated
+static1,NPV_car_time_MCHF,BIKE_ASC_SHIFT,0.38301507537688445,200,Estimated
+static1,NPV_car_time_MCHF,EBIKE_SHARE,0.09375234380859522,200,Estimated
+static1,NPV_car_time_MCHF,OPEX_MULTIPLIER,-0.015826895672391813,200,Estimated
+static1,NPV_car_time_MCHF,CAPEX_MULTIPLIER,0.013668341708542716,200,Estimated
+static1,NPV_pt_time_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+static1,NPV_pt_time_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+static1,NPV_pt_time_MCHF,EBIKE_SHARE,,200,Insufficient variation
+static1,NPV_pt_time_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+static1,NPV_pt_time_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+static1,NPV_pt_crowding_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+static1,NPV_pt_crowding_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+static1,NPV_pt_crowding_MCHF,EBIKE_SHARE,,200,Insufficient variation
+static1,NPV_pt_crowding_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+static1,NPV_pt_crowding_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+static1,NPV_inv_MCHF,PASSENGER_DEMAND_GROWTH,0.0012450311257781446,200,Estimated
+static1,NPV_inv_MCHF,BIKE_ASC_SHIFT,0.002013050326258157,200,Estimated
+static1,NPV_inv_MCHF,EBIKE_SHARE,-0.1090902272556814,200,Estimated
+static1,NPV_inv_MCHF,OPEX_MULTIPLIER,0.13205880147003676,200,Estimated
+static1,NPV_inv_MCHF,CAPEX_MULTIPLIER,-1.0,200,Estimated
+static1,NPV_op_MCHF,PASSENGER_DEMAND_GROWTH,0.010023250581264534,200,Estimated
+static1,NPV_op_MCHF,BIKE_ASC_SHIFT,-0.02449561239030976,200,Estimated
+static1,NPV_op_MCHF,EBIKE_SHARE,0.1024900622515563,200,Estimated
+static1,NPV_op_MCHF,OPEX_MULTIPLIER,-1.0,200,Estimated
+static1,NPV_op_MCHF,CAPEX_MULTIPLIER,0.13205880147003676,200,Estimated
+static2,NPV_MCHF,PASSENGER_DEMAND_GROWTH,0.7384969624240608,200,Estimated
+static2,NPV_MCHF,BIKE_ASC_SHIFT,0.6553333833345835,200,Estimated
+static2,NPV_MCHF,EBIKE_SHARE,-0.05198979974499363,200,Estimated
+static2,NPV_MCHF,OPEX_MULTIPLIER,-0.044764119102977576,200,Estimated
+static2,NPV_MCHF,CAPEX_MULTIPLIER,-0.035324383109577744,200,Estimated
+static2,NPV_car_time_MCHF,PASSENGER_DEMAND_GROWTH,0.9404140103502588,200,Estimated
+static2,NPV_car_time_MCHF,BIKE_ASC_SHIFT,0.3330923273081827,200,Estimated
+static2,NPV_car_time_MCHF,EBIKE_SHARE,-0.008305707642691068,200,Estimated
+static2,NPV_car_time_MCHF,OPEX_MULTIPLIER,0.0014505362634065853,200,Estimated
+static2,NPV_car_time_MCHF,CAPEX_MULTIPLIER,0.007380184504612617,200,Estimated
+static2,NPV_pt_time_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+static2,NPV_pt_time_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+static2,NPV_pt_time_MCHF,EBIKE_SHARE,,200,Insufficient variation
+static2,NPV_pt_time_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+static2,NPV_pt_time_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+static2,NPV_pt_crowding_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+static2,NPV_pt_crowding_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+static2,NPV_pt_crowding_MCHF,EBIKE_SHARE,,200,Insufficient variation
+static2,NPV_pt_crowding_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+static2,NPV_pt_crowding_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+static2,NPV_inv_MCHF,PASSENGER_DEMAND_GROWTH,0.0012450311257781446,200,Estimated
+static2,NPV_inv_MCHF,BIKE_ASC_SHIFT,0.002013050326258157,200,Estimated
+static2,NPV_inv_MCHF,EBIKE_SHARE,-0.1090902272556814,200,Estimated
+static2,NPV_inv_MCHF,OPEX_MULTIPLIER,0.13205880147003676,200,Estimated
+static2,NPV_inv_MCHF,CAPEX_MULTIPLIER,-1.0,200,Estimated
+static2,NPV_op_MCHF,PASSENGER_DEMAND_GROWTH,0.010023250581264534,200,Estimated
+static2,NPV_op_MCHF,BIKE_ASC_SHIFT,-0.02449561239030976,200,Estimated
+static2,NPV_op_MCHF,EBIKE_SHARE,0.1024900622515563,200,Estimated
+static2,NPV_op_MCHF,OPEX_MULTIPLIER,-1.0,200,Estimated
+static2,NPV_op_MCHF,CAPEX_MULTIPLIER,0.13205880147003676,200,Estimated
+staged1,NPV_MCHF,PASSENGER_DEMAND_GROWTH,0.7378504462611566,200,Estimated
+staged1,NPV_MCHF,BIKE_ASC_SHIFT,0.6559708992724819,200,Estimated
+staged1,NPV_MCHF,EBIKE_SHARE,-0.05135378384459612,200,Estimated
+staged1,NPV_MCHF,OPEX_MULTIPLIER,-0.04521863046576165,200,Estimated
+staged1,NPV_MCHF,CAPEX_MULTIPLIER,-0.03510687767194181,200,Estimated
+staged1,NPV_car_time_MCHF,PASSENGER_DEMAND_GROWTH,0.9371154278856973,200,Estimated
+staged1,NPV_car_time_MCHF,BIKE_ASC_SHIFT,0.341707042676067,200,Estimated
+staged1,NPV_car_time_MCHF,EBIKE_SHARE,0.008911722793069827,200,Estimated
+staged1,NPV_car_time_MCHF,OPEX_MULTIPLIER,-0.0005715142878571965,200,Estimated
+staged1,NPV_car_time_MCHF,CAPEX_MULTIPLIER,0.006568664216605416,200,Estimated
+staged1,NPV_pt_time_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+staged1,NPV_pt_time_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+staged1,NPV_pt_time_MCHF,EBIKE_SHARE,,200,Insufficient variation
+staged1,NPV_pt_time_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+staged1,NPV_pt_time_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+staged1,NPV_pt_crowding_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+staged1,NPV_pt_crowding_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+staged1,NPV_pt_crowding_MCHF,EBIKE_SHARE,,200,Insufficient variation
+staged1,NPV_pt_crowding_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+staged1,NPV_pt_crowding_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+staged1,NPV_inv_MCHF,PASSENGER_DEMAND_GROWTH,0.0012450311257781446,200,Estimated
+staged1,NPV_inv_MCHF,BIKE_ASC_SHIFT,0.002013050326258157,200,Estimated
+staged1,NPV_inv_MCHF,EBIKE_SHARE,-0.1090902272556814,200,Estimated
+staged1,NPV_inv_MCHF,OPEX_MULTIPLIER,0.13205880147003676,200,Estimated
+staged1,NPV_inv_MCHF,CAPEX_MULTIPLIER,-1.0,200,Estimated
+staged1,NPV_op_MCHF,PASSENGER_DEMAND_GROWTH,0.010023250581264534,200,Estimated
+staged1,NPV_op_MCHF,BIKE_ASC_SHIFT,-0.02449561239030976,200,Estimated
+staged1,NPV_op_MCHF,EBIKE_SHARE,0.1024900622515563,200,Estimated
+staged1,NPV_op_MCHF,OPEX_MULTIPLIER,-1.0,200,Estimated
+staged1,NPV_op_MCHF,CAPEX_MULTIPLIER,0.13205880147003676,200,Estimated
+staged2,NPV_MCHF,PASSENGER_DEMAND_GROWTH,0.7385809645241131,200,Estimated
+staged2,NPV_MCHF,BIKE_ASC_SHIFT,0.6560669016725419,200,Estimated
+staged2,NPV_MCHF,EBIKE_SHARE,-0.05470486762169055,200,Estimated
+staged2,NPV_MCHF,OPEX_MULTIPLIER,-0.03531988299707493,200,Estimated
+staged2,NPV_MCHF,CAPEX_MULTIPLIER,-0.03291682292057302,200,Estimated
+staged2,NPV_car_time_MCHF,PASSENGER_DEMAND_GROWTH,0.9388719717992952,200,Estimated
+staged2,NPV_car_time_MCHF,BIKE_ASC_SHIFT,0.3371964299107478,200,Estimated
+staged2,NPV_car_time_MCHF,EBIKE_SHARE,-0.0014040351008775221,200,Estimated
+staged2,NPV_car_time_MCHF,OPEX_MULTIPLIER,0.0012930323258081456,200,Estimated
+staged2,NPV_car_time_MCHF,CAPEX_MULTIPLIER,0.006538663466586666,200,Estimated
+staged2,NPV_pt_time_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+staged2,NPV_pt_time_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+staged2,NPV_pt_time_MCHF,EBIKE_SHARE,,200,Insufficient variation
+staged2,NPV_pt_time_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+staged2,NPV_pt_time_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+staged2,NPV_pt_crowding_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+staged2,NPV_pt_crowding_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+staged2,NPV_pt_crowding_MCHF,EBIKE_SHARE,,200,Insufficient variation
+staged2,NPV_pt_crowding_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+staged2,NPV_pt_crowding_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+staged2,NPV_inv_MCHF,PASSENGER_DEMAND_GROWTH,0.0012450311257781446,200,Estimated
+staged2,NPV_inv_MCHF,BIKE_ASC_SHIFT,0.002013050326258157,200,Estimated
+staged2,NPV_inv_MCHF,EBIKE_SHARE,-0.1090902272556814,200,Estimated
+staged2,NPV_inv_MCHF,OPEX_MULTIPLIER,0.13205880147003676,200,Estimated
+staged2,NPV_inv_MCHF,CAPEX_MULTIPLIER,-1.0,200,Estimated
+staged2,NPV_op_MCHF,PASSENGER_DEMAND_GROWTH,0.010023250581264534,200,Estimated
+staged2,NPV_op_MCHF,BIKE_ASC_SHIFT,-0.02449561239030976,200,Estimated
+staged2,NPV_op_MCHF,EBIKE_SHARE,0.1024900622515563,200,Estimated
+staged2,NPV_op_MCHF,OPEX_MULTIPLIER,-1.0,200,Estimated
+staged2,NPV_op_MCHF,CAPEX_MULTIPLIER,0.13205880147003676,200,Estimated
+flexible,NPV_MCHF,PASSENGER_DEMAND_GROWTH,0.7128328208205206,200,Estimated
+flexible,NPV_MCHF,BIKE_ASC_SHIFT,0.678778969474237,200,Estimated
+flexible,NPV_MCHF,EBIKE_SHARE,-0.023793594839871,200,Estimated
+flexible,NPV_MCHF,OPEX_MULTIPLIER,-0.0505572639315983,200,Estimated
+flexible,NPV_MCHF,CAPEX_MULTIPLIER,-0.02907672691817296,200,Estimated
+flexible,NPV_car_time_MCHF,PASSENGER_DEMAND_GROWTH,0.9069856746418661,200,Estimated
+flexible,NPV_car_time_MCHF,BIKE_ASC_SHIFT,0.38887722193054836,200,Estimated
+flexible,NPV_car_time_MCHF,EBIKE_SHARE,0.09726093152328812,200,Estimated
+flexible,NPV_car_time_MCHF,OPEX_MULTIPLIER,-0.01629490737268432,200,Estimated
+flexible,NPV_car_time_MCHF,CAPEX_MULTIPLIER,0.014031350783769598,200,Estimated
+flexible,NPV_pt_time_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+flexible,NPV_pt_time_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+flexible,NPV_pt_time_MCHF,EBIKE_SHARE,,200,Insufficient variation
+flexible,NPV_pt_time_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+flexible,NPV_pt_time_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+flexible,NPV_pt_crowding_MCHF,PASSENGER_DEMAND_GROWTH,,200,Insufficient variation
+flexible,NPV_pt_crowding_MCHF,BIKE_ASC_SHIFT,,200,Insufficient variation
+flexible,NPV_pt_crowding_MCHF,EBIKE_SHARE,,200,Insufficient variation
+flexible,NPV_pt_crowding_MCHF,OPEX_MULTIPLIER,,200,Insufficient variation
+flexible,NPV_pt_crowding_MCHF,CAPEX_MULTIPLIER,,200,Insufficient variation
+flexible,NPV_inv_MCHF,PASSENGER_DEMAND_GROWTH,-0.021653041326033153,200,Estimated
+flexible,NPV_inv_MCHF,BIKE_ASC_SHIFT,-0.07533338333458338,200,Estimated
+flexible,NPV_inv_MCHF,EBIKE_SHARE,-0.1340433510837771,200,Estimated
+flexible,NPV_inv_MCHF,OPEX_MULTIPLIER,0.12382959573989351,200,Estimated
+flexible,NPV_inv_MCHF,CAPEX_MULTIPLIER,-0.9866916672916823,200,Estimated
+flexible,NPV_op_MCHF,PASSENGER_DEMAND_GROWTH,0.009016725418135455,200,Estimated
+flexible,NPV_op_MCHF,BIKE_ASC_SHIFT,-0.02800270006750169,200,Estimated
+flexible,NPV_op_MCHF,EBIKE_SHARE,0.10089102227555691,200,Estimated
+flexible,NPV_op_MCHF,OPEX_MULTIPLIER,-0.9999204980124503,200,Estimated
+flexible,NPV_op_MCHF,CAPEX_MULTIPLIER,0.13111377784444614,200,Estimated

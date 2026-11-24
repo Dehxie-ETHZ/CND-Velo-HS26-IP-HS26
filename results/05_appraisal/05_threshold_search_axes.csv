@@ -1,0 +1,2 @@
+﻿package,monitoring_indicator,current_threshold,search_minimum,search_maximum,observed_P05,observed_P95
+2,bike_share,0.15,0.1275,0.1725,0.07270409977947724,0.14060369894829106
